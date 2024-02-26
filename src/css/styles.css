@@ -4,14 +4,18 @@
   | default @import url()
   |============================
 */
+@import 'node_modules/modern-normalize/modern-normalize.css';
+@import url('./global.css');
 @import url('./reset.css');
 @import url('./header.css');
-@import url('./section1.css');
-@import url('./section2.css');
-@import url('./section3.css');
-@import url('./section4.css');
+@import url('./section1-hero.css');
+@import url('./section2-how-it-works.css');
+@import url('./section3-advertisement.css');
+@import url('./section4-vegetables.css');
+@import url('./section5-reviews.css');
+@import url('./section6-your-order.css');
 @import url('./footer.css');
-@import url('./modal-window.css');
+@import url('./memu-window-mob-tab.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
