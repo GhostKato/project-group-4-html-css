@@ -80,7 +80,7 @@
   }
 
   .reviews-header {
-    width: 553px;
+    max-width: 553px;
     font-size: 64px;
     line-height: 1;
     letter-spacing: -0.06em;
@@ -88,7 +88,7 @@
   }
 
   .reviews-paragraph {
-    width: 553px;
+    max-width: 553px;
     font-size: 16px;
     line-height: 1.25;
     padding-bottom: 50px;
