@@ -5,7 +5,6 @@
 
 .reviews-header {
   color: #141414;
-  font-family: 'Inter Tight';
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
@@ -22,7 +21,6 @@
 
 .reviews-paragraph {
   color: #141414;
-  font-family: 'Inter Tight';
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -55,7 +53,6 @@
 .reviews-subheader {
   color: #040306;
   text-align: center;
-  font-family: 'Inter Tight';
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -66,7 +63,6 @@
 .reviews-subparagraph {
   color: rgba(4, 3, 6, 0.4);
   text-align: center;
-  font-family: 'Inter Tight';
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
