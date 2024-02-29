@@ -1,3 +1,39 @@
 .footer {
-  color: #5a35d9;
+  background-color: #7A3145;
+}
+
+.logo-svg {
+  fill: #fbfbfb;
+}
+
+.p-footer {
+  color: #FBFBFB;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.li-footer {
+  color: #FBFBFB;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.42px;
+}
+
+.li-footer-add {
+  color: #FBFBFB;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: -0.21px;
+}
+
+.li-privacy {
+  color: rgba(251, 251, 251, 0.50);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.18px;
 }
