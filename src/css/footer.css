@@ -93,7 +93,7 @@
     display: inline-grid;
     gap: 25px;
     margin: 0;
-    padding-right: 224px;
+    /* padding-right: 224px; */
   }
 
   .li-footer {
@@ -102,14 +102,26 @@
     line-height: 32px;
   }
 
+  .ul-footer-add {
+    gap: 25px;
+    margin-top: 64px;
+  }
+
+  .ul-privacy {
+    gap: 284px;
+  }
+
   .li-privacy {
     font-size: 18px;
     line-height: 20px;
     letter-spacing: -0.27px;
+    margin-top: 100px;
   }
 
-  /* .ul-div {
+  .ul-div {
     display: flex;
-  } */
+    gap: 224px;
+  }
+
 
 }
