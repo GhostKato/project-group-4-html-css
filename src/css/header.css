@@ -1,8 +1,12 @@
 .header {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .header-container {
-  background-color: blueviolet;
+  background-color: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -116,6 +120,7 @@
   }
 
   .header-container {
+    max-width: 100%;
     gap: 0;
     margin: 32px 100px 0 100px;
   }
@@ -127,9 +132,11 @@
   }
 
   .header-list-item-link {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
     color: #fbfbfb;
-    text-align: center;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.02em;
@@ -137,6 +144,11 @@
 
   .header-buy-btn {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    max-width: 157px;
+
     color: #fbfbfb;
     font-size: 18px;
     font-weight: 600;
