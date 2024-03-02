@@ -21,7 +21,7 @@
     />
     
     <script type="module" crossorigin src="/project-group-4-html-css/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-group-4-html-css/assets/index-8d0c0414.css">
+    <link rel="stylesheet" href="/project-group-4-html-css/assets/index-a31036d4.css">
   </head>
   <body>
     <header class="header">
@@ -47,7 +47,7 @@
       </ul>
     </nav>
     <button class="header-buy-btn" type="button">SHOP NOW</button>
-    <button class="menu-btn" type="button">
+    <button class="menu-btn" type="button" data-menu-open>
       <svg class="menu-icon">
         <use class="menu-link" href="/project-group-4-html-css/assets/icons-f8af6c84.svg#icon-menu"></use>
       </svg>
@@ -738,29 +738,32 @@
   </div>
 </footer>
 
-    <h2 class="menu">Menu</h2>
-
-<div class="backdrop">
-    <div class="container section">
-        <div>
-            <button type="button" class="menu-close-btn">
-                <svg class="menu-close-icon" aria-label="menu-close">
-                    <use href="/project-group-4-html-css/assets/icons-f8af6c84.svg#icon-close"></use>
-                </svg>
-            </button>
-            <nav class="menu-nav">
-                <ul class="menu-nav-list">
-                    <li class="menu-nav-item"><a class="menu-nav-link" href="#">How It Works</a></li>
-                    <li class="menu-nav-item"><a class="menu-nav-link" href="#">Vegetables</a></li>
-                    <li class="menu-nav-item"><a class="menu-nav-link" href="#">Reviews</a></li>
-                </ul>
-            </nav>
-        </div>
-        <button class="menu-bottom-btn">
-            Shop now
-        </button>
+    <div class="backdrop" data-menu>
+  <div class="menu-container menu">
+    <div>
+      <button type="button" class="menu-close-btn" data-menu-close>
+        <svg class="menu-close-icon" aria-label="menu-close">
+          <use href="/project-group-4-html-css/assets/icons-f8af6c84.svg#icon-close"></use>
+        </svg>
+      </button>
+      <nav class="menu-nav">
+        <ul class="menu-nav-list">
+          <li class="menu-nav-item">
+            <a class="menu-nav-link" href="#">How It Works</a>
+          </li>
+          <li class="menu-nav-item">
+            <a class="menu-nav-link" href="#">Vegetables</a>
+          </li>
+          <li class="menu-nav-item">
+            <a class="menu-nav-link" href="#">Reviews</a>
+          </li>
+        </ul>
+      </nav>
     </div>
+    <button class="menu-bottom-btn">Shop now</button>
+  </div>
 </div>
+
     
   </body>
 </html>
