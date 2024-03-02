@@ -1,5 +1,11 @@
-.menu {
-  color: aqua;
+.backdrop {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  overflow: none;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 @media screen and (min-width: 375px) {
@@ -15,7 +21,7 @@
 
   /* position-start */
 
-  .container {
+  .menu-container {
     width: 100%;
     height: 100%;
     padding-left: 20px;
@@ -31,7 +37,7 @@
 
     background-color: #7a3145;
   }
-  .section {
+  .menu {
     padding-top: 20px;
     padding-bottom: 40px;
   }
@@ -132,12 +138,12 @@
 @media screen and (min-width: 768px) {
   /* position-start */
 
-  .section {
+  .menu {
     padding-top: 32px;
     padding-bottom: 50px;
   }
 
-  .container {
+  .menu-container {
     max-width: 351px;
     padding-left: 32px;
     padding-right: 32px;
@@ -161,4 +167,10 @@
 
     stroke: #ffffff;
   }
+}
+
+.is-open {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
 }
