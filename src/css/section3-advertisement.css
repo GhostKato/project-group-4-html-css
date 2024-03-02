@@ -39,6 +39,7 @@
   line-height: 1.04;
   letter-spacing: -0.015em;
   text-transform: uppercase;
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -69,13 +70,13 @@
     padding: 0 13px;
     font-size: 76px;
     line-height: 1.05;
-  }
+
 
   .text {
     display: inline-block;
-    display: inline;
     padding: 0 13px;
     font-size: 76px;
     line-height: 1.05;
+  
   }
 }
