@@ -1,131 +1,136 @@
 <section class="container your-order-container">
-  <div class="order-top-container">
-    <h2 class="your-order-title">
-      Fresh <span class="harvest-span">Harvest</span> Box has got you covered
-    </h2>
-    <p class="your-order-text">
-      Our boxes are packed with delicious, nutritious vegetables, perfect for
-      anyone looking to eat healthier or support local farmers. Order your box
-      today and start enjoying the best that nature has to offer!
-    </p>
-  </div>
-  <div class="order-bottom-container">
-    <form name="order-form" class="your-order-form">
-      <p class="form-text">
-        Ordering <span class="from-us-span">from us</span> is quick and easy!
-        Fill out <span class="the-form-span">the form</span> below and we will
-        contact you !
+  <div class="your-order-wrap">
+    <div class="order-top-container">
+      <h2 class="your-order-title">
+        Fresh <span class="harvest-span">Harvest</span> Box has got you covered
+      </h2>
+      <p class="your-order-text">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
       </p>
-      <label for="username" class="form-label">
-        <input
-          type="text"
-          name="username"
-          id="username"
-          class="form-input"
-          placeholder="Full Name"
-          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-          required
-        />
-      </label>
-      <label for="email" class="form-label">
-        <input
-          type="email"
-          name="email"
-          id="email"
-          class="form-input"
-          placeholder="Email"
-          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-          required
-        />
-        <!-- <p class="text-valid">Succes!</p>
+    </div>
+    <div class="order-bottom-container">
+      <form name="order-form" class="your-order-form">
+        <p class="form-text">
+          Ordering <span class="from-us-span">from us</span> is quick and easy!
+          Fill out <span class="the-form-span">the form</span> below and we will
+          contact you !
+        </p>
+        <label for="username" class="form-label">
+          <input
+            type="text"
+            name="username"
+            id="username"
+            class="form-input"
+            placeholder="Full Name"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+        </label>
+        <label for="email" class="form-label">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-input"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+          <!-- <p class="text-valid">Succes!</p>
         <p class="text-invalid">Invalid email, try again</p> -->
-      </label>
-      <label for="comment" class="form-label textarea-label">
-        <textarea
-          name="comment"
-          id="comment"
-          class="form-textarea"
-          placeholder="Comment"
-        ></textarea>
-      </label>
-      <button type="submit" class="form-btn">Send</button>
-    </form>
-    <div class="socials-container">
-      <picture>
-        <source
-          media="(min-width: 375px )"
-          type="image/webp"
-          srcset="
-            ./img/smoothie-mob-webp-1x.webp 1x,
-            ./img/smoothie-mob-webp-2x.webp 2x
-          "
-        />
-        <source
-          media="(min-width: 375px )"
-          type="image/jpeg"
-          srcset="./img/smoothie-mob-1x.jpg 1x, ./img/smoothie-mob-2x.jpg 2x"
-        />
-        <source
-          media="(min-width: 768px )"
-          type="image/webp"
-          srcset="
-            ./img/smoothie-tab-webp-1x.webp 1x,
-            ./img/smoothie-tab-webp-2x.webp 2x
-          "
-        />
-        <source
-          media="(min-width: 768px )"
-          type="image/jpeg"
-          srcset="./img/smoothie-tab-1x.jpg 1x, ./img/smoothie-tab-2x.jpg 2x"
-        />
-        <source
-          media="(min-width: 1280px )"
-          type="image/webp"
-          srcset="
-            ./img/smoothie-desk-webp-1x.webp 1x,
-            ./img/smoothie-desk-webp-2x.webp 2x
-          "
-        />
-        <source
-          media="(min-width: 1280px )"
-          type="image/jpeg"
-          srcset="./img/smoothie-desk-1x.jpg 1x, ./img/smoothie-desk-2x.jpg 2x"
-        />
-        <img
-          class="socials-image"
-          src="./img/smoothie-desk-1x.jpg"
-          alt="girl making a smoothie"
-          loading="lazy"
-          width="528"
-        />
-      </picture>
-      <p class="socials-text">Follow us on our social networks:</p>
-      <ul class="socials-list">
-        <li class="socials-item">
-          <a
-            href="https://www.instagram.com/goitclub/"
-            class="socials-link"
-            target="_blank"
-            >instagram /</a
-          >
-        </li>
-        <li class="socials-item">
-          <a
-            href="https://www.facebook.com/goITclub/"
-            class="socials-link"
-            target="_blank"
-            >facebook /</a
-          >
-        </li>
-        <li class="socials-item">
-          <a
-            href="https://www.youtube.com/c/GoIT "
-            class="socials-link"
-            target="_blank"
-            >youtube</a
-          >
-        </li>
-      </ul>
+        </label>
+        <label for="comment" class="form-label textarea-label">
+          <textarea
+            name="comment"
+            id="comment"
+            class="form-textarea"
+            placeholder="Comment"
+          ></textarea>
+        </label>
+        <button type="submit" class="form-btn">Send</button>
+      </form>
+      <div class="socials-container">
+        <picture>
+          <source
+            media="(min-width: 375px )"
+            type="image/webp"
+            srcset="
+              ./img/smoothie-mob-webp-1x.webp 1x,
+              ./img/smoothie-mob-webp-2x.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 375px )"
+            type="image/jpeg"
+            srcset="./img/smoothie-mob-1x.jpg 1x, ./img/smoothie-mob-2x.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px )"
+            type="image/webp"
+            srcset="
+              ./img/smoothie-tab-webp-1x.webp 1x,
+              ./img/smoothie-tab-webp-2x.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 768px )"
+            type="image/jpeg"
+            srcset="./img/smoothie-tab-1x.jpg 1x, ./img/smoothie-tab-2x.jpg 2x"
+          />
+          <source
+            media="(min-width: 1280px )"
+            type="image/webp"
+            srcset="
+              ./img/smoothie-desk-webp-1x.webp 1x,
+              ./img/smoothie-desk-webp-2x.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 1280px )"
+            type="image/jpeg"
+            srcset="
+              ./img/smoothie-desk-1x.jpg 1x,
+              ./img/smoothie-desk-2x.jpg 2x
+            "
+          />
+          <img
+            class="socials-image"
+            src="./img/smoothie-desk-1x.jpg"
+            alt="girl making a smoothie"
+            loading="lazy"
+            width="528"
+          />
+        </picture>
+        <p class="socials-text">Follow us on our social networks:</p>
+        <ul class="socials-list">
+          <li class="socials-item">
+            <a
+              href="https://www.instagram.com/goitclub/"
+              class="socials-link"
+              target="_blank"
+              >instagram /</a
+            >
+          </li>
+          <li class="socials-item">
+            <a
+              href="https://www.facebook.com/goITclub/"
+              class="socials-link"
+              target="_blank"
+              >facebook /</a
+            >
+          </li>
+          <li class="socials-item">
+            <a
+              href="https://www.youtube.com/c/GoIT "
+              class="socials-link"
+              target="_blank"
+              >youtube</a
+            >
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
