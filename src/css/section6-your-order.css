@@ -48,11 +48,11 @@
   background-color: #fbfbfb;
   display: flex;
   flex-direction: column;
-  gap: 15px;
 }
 
-.your-order-form:not(:last-child):after {
-}
+/* .your-order-form:not(:last-child) {
+  gap: 15px;
+} */
 
 .form-text {
   font-weight: 600;
@@ -86,7 +86,37 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: inherit;
+  margin-bottom: 15px;
 }
+
+.form-input:hover,
+.form-input:focus {
+  border-color: #7a3145;
+}
+
+.form-input:not(:placeholder-shown):invalid {
+  border-color: #e74a3b;
+}
+
+.form-input:not(:placeholder-shown):valid {
+  border-color: #3cbc81;
+}
+
+/* .text-valid,
+.text-invalid {
+  font-size: 14px;
+  padding-left: 20px;
+  margin-top: 4px;
+  display: none;
+}
+
+.text-valid {
+  color: green;
+}
+
+.text-invalid {
+  color: red;
+} */
 
 input::placeholder {
   font-weight: 500;
@@ -95,6 +125,14 @@ input::placeholder {
   letter-spacing: -0.02em;
   text-align: left;
   color: inherit;
+}
+
+.form-input:not(:placeholder-shown):valid ~ .text-valid {
+  display: block;
+}
+
+.form-input:not(:placeholder-shown):invalid ~ .text-invalid {
+  display: block;
 }
 
 .textarea-label {
@@ -107,6 +145,7 @@ input::placeholder {
   width: 100%;
   height: 91px;
   resize: none;
+  margin-bottom: 20px;
 }
 
 textarea::placeholder {
@@ -116,6 +155,12 @@ textarea::placeholder {
   letter-spacing: -0.02em;
   text-align: left;
   color: inherit;
+}
+
+.form-textarea:active,
+.form-textarea:hover,
+.form-textarea:focus {
+  border-color: #7a3145;
 }
 
 .form-btn {
@@ -161,10 +206,15 @@ textarea::placeholder {
 .socials-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 12px;
+  column-gap: 6px;
 }
 
 .socials-item {
+}
+
+.socials-item:not(:last-child) {
+  display: block;
+  margin-bottom: 8px;
 }
 
 .socials-link {
@@ -204,7 +254,6 @@ textarea::placeholder {
     line-height: 1;
     letter-spacing: -0.01em;
     text-transform: uppercase;
-    text-align: left;
   }
 
   .your-order-text {
@@ -227,6 +276,18 @@ textarea::placeholder {
     margin-bottom: 50px;
   }
 
+  .form-input {
+    height: 52px;
+  }
+
+  .form-textarea {
+    margin-bottom: 25px;
+  }
+
+  .form-btn {
+    height: 52px;
+  }
+
   .socials-container {
     max-width: 628px;
     width: 100%;
@@ -241,6 +302,20 @@ textarea::placeholder {
   .socials-image {
     width: 100%;
     margin-bottom: 50px;
+  }
+
+  .socials-text {
+    font-size: 18px;
+  }
+
+  .socials-item:not(:last-child) {
+    display: block;
+    margin-bottom: 0px;
+  }
+
+  .socials-link {
+    font-size: 32px;
+    line-height: 1;
   }
 }
 
@@ -260,44 +335,15 @@ textarea::placeholder {
     margin-bottom: 50px;
   }
 
+  .your-order-title {
+    text-align: start;
+  }
+
   .order-bottom-container {
     display: flex;
     flex-direction: row;
     padding: 0;
   }
-
-  /* .your-order-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .order-top-container {
-    padding-left: 32px;
-    padding-right: 96px;
-    gap: 25px;
-    margin-bottom: 50px;
-  }
-
-  .your-order-title {
-    font-size: 64px;
-    line-height: 1;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    text-align: left;
-  }
-
-  .your-order-text {
-    font-size: 16px;
-    line-height: 1.25;
-  }
-
-  /* .order-bottom-container {
-    padding: 0 70px;
-  } */
 
   .your-order-form {
     width: calc((100%-24px) / 2);
@@ -315,23 +361,15 @@ textarea::placeholder {
     align-content: center;
   }
 
-  /* .form-text {
-    margin-bottom: 50px;
+  .socials-text {
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.01em;
+    margin-bottom: 15px;
   }
 
-  .socials-container {
-    max-width: 628px;
-    width: 100%;
-    max-height: 490px;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+  .socials-item:not(:last-child) {
+    display: block;
+    margin-bottom: 12px;
   }
-
-  .socials-image {
-    width: 100%;
-    margin-bottom: 50px;
-  } */
 }
