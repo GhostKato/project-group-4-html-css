@@ -21,7 +21,7 @@
     />
     
     <script type="module" crossorigin src="/project-group-4-html-css/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-group-4-html-css/assets/index-10046712.css">
+    <link rel="stylesheet" href="/project-group-4-html-css/assets/index-09796101.css">
   </head>
   <body>
     <header class="header">
@@ -568,7 +568,8 @@
           id="username"
           class="form-input"
           placeholder="Full Name"
-          autofocus
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          required
         />
       </label>
       <label for="email" class="form-label">
@@ -581,6 +582,8 @@
           pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
           required
         />
+        <!-- <p class="text-valid">Succes!</p>
+        <p class="text-invalid">Invalid email, try again</p> -->
       </label>
       <label for="comment" class="form-label textarea-label">
         <textarea
@@ -595,15 +598,15 @@
     <div class="socials-container">
       <picture>
         <source
-          media="(max-width: 767px )"
+          media="(min-width: 375px )"
           type="image/webp"
           srcset="
             ../img/smoothie-mob-webp-1x.webp 1x,
-            ../img/smoothie-mob-webp-2x      2x
+            ../img/smoothie-mob-webp-2x.webp 2x
           "
         />
         <source
-          media="(max-width: 767px )"
+          media="(min-width: 375px )"
           type="image/jpeg"
           srcset="../img/smoothie-mob-1x.jpg 1x, ../img/smoothie-mob-2x.jpg 2x"
         />
