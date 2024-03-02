@@ -3,7 +3,7 @@
   padding: 40px 20px;
 }
 
-.logo-svg {
+.footer-logo-svg {
   fill: #fbfbfb;
   width: 168px;
   height: 16px;
@@ -16,13 +16,19 @@
   line-height: 18px;
   padding-right: 59px;
   margin-top: 14px;
+  width: 296px;
 }
 
 .ul-footer {
   display: inline-grid;
   flex-direction: row;
-  gap: 14px;
+  gap: 40px;
   margin-top: 40px;
+}
+
+.ul-footer-links {
+  display: inline-grid;
+  gap: 14px;
 }
 
 .li-footer {
@@ -31,12 +37,12 @@
   font-weight: 600;
   line-height: 28px;
   letter-spacing: -0.42px;
+  text-wrap: nowrap;
 }
 
 .ul-footer-add {
   display: inline-grid;
   gap: 14px;
-  margin-top: 40px;
 }
 
 .li-footer-add {
@@ -48,14 +54,14 @@
   letter-spacing: -0.21px;
 }
 
-.ul-privacy {
+.footer-ul-privacy {
   margin-top: 40px;
   display: flex;
   flex-direction: row;
   gap: 49px;
 }
 
-.li-privacy {
+.footer-li-privacy {
   color: rgba(251, 251, 251, 0.50);
   font-size: 12px;
   font-weight: 500;
@@ -65,11 +71,10 @@
 
 @media screen and (min-width:768px) {
   .footer {
-    max-width: 768px;
     padding: 32px;
   }
 
-  .logo-svg {
+  .footer-logo-svg {
     width: 194px;
     height: 18px;
   }
@@ -82,9 +87,8 @@
 
   .ul-footer {
     display: inline-grid;
-    gap: 25px;
+    gap: 64px;
     margin: 0;
-    margin-left: 302px;
   }
 
   .li-footer {
@@ -93,23 +97,27 @@
     line-height: 32px;
   }
 
+  .ul-footer-links {
+    gap: 25px;
+  }
+
   .ul-footer-add {
     gap: 25px;
-    margin-top: 64px;
   }
 
-  .ul-privacy {
+  .footer-ul-privacy {
     gap: 284px;
+    margin: 0;
   }
 
-  .li-privacy {
+  .footer-li-privacy {
     font-size: 18px;
     line-height: 20px;
     letter-spacing: -0.27px;
     margin-top: 100px;
   }
 
-  .ul-div {
+  .footer-main-ul {
     display: flex;
     gap: 224px;
   }
@@ -117,11 +125,10 @@
 
 @media screen and (min-width:1280px) {
   .footer {
-  max-width: 1280px;
-  padding: 50px 100px;
+    padding: 50px 100px;
   }
 
-  .logo-svg {
+  .footer-logo-svg {
     width: 168px;
     height: 15px;
   }
@@ -131,15 +138,24 @@
     line-height: 20px;
   }
 
-  .ul-div {
-    gap: 0;
+  .footer-main-ul {
+    gap: 302px;
   }
 
-  .ul-privacy {
+  .ul-footer {
+    display: flex;
+    gap: 121px;
+  }
+
+  .ul-footer-add {
+    margin-top: 0px;
+  }
+
+  .footer-ul-privacy {
     gap: 660px;
   }
 
-  .li-privacy {
+  .footer-li-privacy {
     margin-top: 125px;
   }
 }
