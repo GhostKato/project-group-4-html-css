@@ -1,3 +1,97 @@
-.section2 {
-  color: #d93541;
+.how {
+}
+
+.how-photo {
+  background-color: #7A3145;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.how-picture {
+  border-radius: 30px;
+  background: linear-gradient(0deg, rgba(20, 20, 20, 0.30) 0%, rgba(20, 20, 20, 0.30) 100%), url(<path-to-image>), lightgray -205.954px 0px / 222.958% 110.667% no-repeat;
+}
+
+.steps {
+  background-color: #576F35;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.container {
+
+}
+
+.steps-text {
+  margin-bottom: 20px;
+  color: #FBFBFB;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+}
+
+.steps-text>span {
+  color: rgba(251, 251, 251, 0.30);
+}
+
+.steps-paragraph {
+  margin-bottom: 40px;
+  color: #FBFBFB;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+}
+
+.steps-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  justify-content: center;
+}
+
+.steps-items {
+  border-radius: 15px;
+  background-color: #FBFBFB;
+  padding: 12px 27px 12px 24px;
+  height: 76px;
+  position: relative;
+  line-height: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.steps-items::before {
+  content: counter(steps-item);
+  counter-increment: steps-item;
+  position: absolute;
+  left: 24px;
+  top: 12px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #7A3145;
+  color: #FBFBFB;
+  text-align: center;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.steps-items-paragraph {
+  height: 42px;
+  color: rgba(20, 20, 20, 0.60);
+  font-family: "Inter Tight";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  padding-left: 70px;
+}
+
+.steps-items-paragraph>span {
+  color: #141414;
+  font-weight: 700;
 }
