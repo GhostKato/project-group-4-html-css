@@ -1,3 +1,157 @@
+/* @media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  } */
+
+
 .section4 {
-  color: #cd35d9;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #7A3145;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* .container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+} */
+
+.section4-title {
+  color: #FBFBFB;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  max-width: 335px;
+}
+
+.section4-title-part {
+  color: rgba(251, 251, 251, 0.30);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+}
+
+.section4-text {
+  color: #FBFBFB;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  max-width: 335px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.section4-list {
+ display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section4-item {
+  border-radius: 40px;
+    background: #FBFBFB;
+    width: 334px;
+}
+
+.section4-cover {
+    position: relative;
+    overflow: hidden;
+    padding: 32px 26px;
+  }
+
+.section4-subtitle {
+  color: #7A3145;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.015em;
+  padding-bottom: 12px;
+}
+
+.section4-desc {
+  color: #141414;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.28;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  padding-bottom: 14px;
+}
+
+.section4-picture {}
+
+
+
+/* Tablet */
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .section4 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .section4-title {
+    font-size: 64px;
+    line-height: 1;
+  }
+
+  .section4-title-part {
+    font-size: 64px;
+    line-height: 1;
+  }
+
+  .section4-text {
+      font-size: 16px;
+      line-height: 1.25;
+      max-width: 626px;
+      padding-top: 25px;
+      padding-bottom: 50px;
+    }
+
+  .section4-subtitle {
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.015em;
+}
+
+.section4-desc {
+  padding-bottom: 10px;
+}
+
+  .section4-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 28px;
+    column-gap: 20px;
+  }
+
+
+
+}
+
+
+/* Desktop */
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }
