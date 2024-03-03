@@ -221,6 +221,7 @@ textarea::placeholder {
 /* Tablet */
 
 @media (min-width: 768px) {
+  .order-top-container {
     gap: 25px;
     margin-bottom: 50px;
   }
