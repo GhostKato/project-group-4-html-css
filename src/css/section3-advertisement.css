@@ -1,4 +1,4 @@
-.promo.section {
+.promo {
   background: #fbfbfb;
 }
 .visually-hidden {
@@ -13,7 +13,7 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.promo.section .container {
+.promo {
   padding: 0 10px;
 }
 
@@ -39,11 +39,10 @@
   line-height: 1.04;
   letter-spacing: -0.015em;
   text-transform: uppercase;
- 
 }
 
 @media screen and (min-width: 768px) {
-  .promo.section .container {
+  .promo {
     padding: 0 16px;
   }
 
@@ -61,17 +60,15 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .promo.section .container {
-  padding: 0 113px;
+  .promo {
+    padding: 0 113px;
   }
- 
 
   .promo-text-fill {
     display: inline-block;
-    padding: 0 13px ;
+    padding: 0 13px;
     font-size: 76px;
     line-height: 1.05;
-    
   }
 
   .promo-text {
@@ -80,7 +77,5 @@
     padding: 0 13px;
     font-size: 76px;
     line-height: 1.05;
- 
-   
   }
 }
