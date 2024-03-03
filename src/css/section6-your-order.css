@@ -183,7 +183,7 @@ textarea::placeholder {
 .socials-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 6px;
+  column-gap: 25px;
 }
 
 .socials-item {
@@ -200,6 +200,12 @@ textarea::placeholder {
   line-height: 1.08;
   letter-spacing: -0.01em;
   color: #fbfbfb;
+}
+
+.soc-pseudo::after {
+  content: '/';
+  position: absolute;
+  transform: translateX(125%);
 }
 
 /* Tablet */
@@ -268,6 +274,10 @@ textarea::placeholder {
 
   .socials-text {
     font-size: 18px;
+  }
+
+  .socials-list {
+    column-gap: 35px;
   }
 
   .socials-item:not(:last-child) {
