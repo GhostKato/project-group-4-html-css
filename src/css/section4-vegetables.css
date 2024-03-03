@@ -1,12 +1,8 @@
 .section4 {
-  padding-top: 80px;
-  padding-bottom: 80px;
   background: #7A3145;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  /* margin: 0 auto; */
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .section4-title {
@@ -17,6 +13,7 @@
   letter-spacing: -0.015em;
   text-transform: uppercase;
   max-width: 335px;
+  padding-bottom: 20px;
 }
 
 .section4-title-part {
@@ -35,7 +32,6 @@
   font-weight: 500;
   line-height: 1.28;
   max-width: 335px;
-  padding-top: 20px;
   padding-bottom: 40px;
 }
 
@@ -48,6 +44,7 @@
 .section4-item {
   border-radius: 40px;
   background: #FBFBFB;
+  width: 100%;
 }
 
 .section4-cover {
@@ -82,18 +79,12 @@
 /* Tablet */
 
 @media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
-
-  .section4 {
-    padding: 100px 32px;
-  }
 
   .section4-title {
     max-width: 508px;
     font-size: 64px;
     line-height: 1;
+    padding-bottom: 25px;
   }
 
   .section4-title-part {
@@ -102,22 +93,21 @@
   }
 
   .section4-text {
-      font-size: 16px;
-      line-height: 1.25;
-      max-width: 626px;
-      padding-top: 25px;
-      padding-bottom: 50px;
-    }
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 626px;
+    padding-bottom: 50px;
+  }
 
   .section4-subtitle {
-  font-size: 32px;
-  line-height: 1;
-  letter-spacing: -0.015em;
-}
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.015em;
+  }
 
-.section4-desc {
-  padding-bottom: 10px;
-}
+  .section4-desc {
+    padding-bottom: 10px;
+  }
 
   .section4-list {
     flex-direction: row;
@@ -127,39 +117,32 @@
   }
 
   .section4-item {
-    max-width: calc((100% - 20px) / 2);
+    width: calc((100% - 20px) / 2);
   }
 
-.section4-cover {
-  padding: 32px 30px;
-}
+  .section4-cover {
+    padding: 32px 30px;
+  }
 }
 
 
 /* Desktop */
 
 @media screen and (min-width: 1280px) {
-  .container {
-    width: 1280px;
+
+  .section4-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 28px;
+    column-gap: 20px;
   }
 
-.section4 {
-  padding: 100px;
-}
+  .section4-item {
+    width: calc((100% - 40px) / 3);
+  }
 
-.section4-list {
-  flex-direction: row;
-  flex-wrap: wrap;
-  row-gap: 28px;
-  column-gap: 20px;
-}
-
-.section4-item {
-  max-width: calc((100% - 42px) / 3);
-}
-
-.section4-cover {
-  padding: 32px 32px;
-}
+  .section4-cover {
+    padding: 32px 32px;
+  }
 
 }
