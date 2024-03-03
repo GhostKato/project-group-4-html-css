@@ -1,4 +1,4 @@
-.your-order-container {
+.background-order {
   background-color: #7a3145;
 }
 
@@ -44,10 +44,6 @@
   display: flex;
   flex-direction: column;
 }
-
-/* .your-order-form:not(:last-child) {
-  gap: 15px;
-} */
 
 .form-text {
   font-weight: 600;
