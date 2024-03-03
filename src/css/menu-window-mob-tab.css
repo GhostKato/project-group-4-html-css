@@ -8,7 +8,7 @@
   pointer-events: none;
 }
 
-.menu-is-open {
+.is-open {
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
