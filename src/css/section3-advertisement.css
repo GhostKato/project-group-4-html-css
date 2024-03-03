@@ -1,5 +1,8 @@
 .promo {
   background: #fbfbfb;
+  padding: 80px 10px;
+
+  
 }
 .visually-hidden {
   position: absolute;
@@ -12,9 +15,6 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-.promo {
-  padding: 0 10px;
 }
 
 .promo-text-fill {
@@ -43,7 +43,7 @@
 
 @media screen and (min-width: 768px) {
   .promo {
-    padding: 0 16px;
+    padding: 100px 16px;
   }
 
   .promo-text-fill {
@@ -61,7 +61,7 @@
 
 @media screen and (min-width: 1280px) {
   .promo {
-    padding: 0 113px;
+    padding: 113px 13px;
   }
 
   .promo-text-fill {
