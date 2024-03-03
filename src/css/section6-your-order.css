@@ -45,10 +45,6 @@
   flex-direction: column;
 }
 
-/* .your-order-form:not(:last-child) {
-  gap: 15px;
-} */
-
 .form-text {
   font-weight: 600;
   font-size: 24px;
@@ -225,7 +221,16 @@ textarea::placeholder {
 /* Tablet */
 
 @media (min-width: 768px) {
-  .order-top-container {
+  <<<<<<< HEAD ======= .your-order-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  >>>>>>>main .order-top-container {
     gap: 25px;
     margin-bottom: 50px;
   }
