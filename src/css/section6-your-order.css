@@ -221,16 +221,6 @@ textarea::placeholder {
 /* Tablet */
 
 @media (min-width: 768px) {
-  <<<<<<< HEAD ======= .your-order-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  >>>>>>>main .order-top-container {
     gap: 25px;
     margin-bottom: 50px;
   }
