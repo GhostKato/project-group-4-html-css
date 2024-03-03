@@ -9,7 +9,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: 1.04;
-  letter-spacing: -0.045em;
+  letter-spacing: -0.015em;
   text-transform: uppercase;
   padding-bottom: 20px;
 }
@@ -24,7 +24,7 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.28;
+  line-height: 1.28em;
   padding-bottom: 40px;
 }
 
@@ -57,7 +57,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: 1.25;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.02em;
 }
 
 .reviews-subparagraph {
@@ -80,7 +80,7 @@
     max-width: 553px;
     font-size: 64px;
     line-height: 1;
-    letter-spacing: -0.06em;
+    letter-spacing: -0.015em;
     padding-bottom: 25px;
   }
 
@@ -102,6 +102,10 @@
 
   .reviews-list .reviews:nth-last-child(n + 2) {
     display: flex;
+  }
+
+  .reviews-image {
+    padding-bottom: 24px;
   }
 
   .reviews-subheader {
