@@ -1,3 +1,133 @@
-.section5 {
-  color: #35d995;
+.reviews-section {
+  background-color: #fbfbfb;
+  padding: 80px 0;
+}
+
+.reviews-header {
+  color: #141414;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.text-coloured {
+  color: #576f35;
+  text-transform: uppercase;
+}
+
+.reviews-paragraph {
+  color: #141414;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.28em;
+  padding-bottom: 40px;
+}
+
+.reviews-list {
+  display: flex;
+}
+
+.reviews {
+  display: flex;
+  padding: 20px 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border-radius: 24px;
+  border: 1px solid rgba(122, 49, 69, 0.3);
+}
+
+.reviews-list .reviews:nth-last-child(-n + 2) {
+  display: none;
+}
+
+.reviews-image {
+  padding-bottom: 16px;
+}
+
+.reviews-subheader {
+  color: #040306;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+.reviews-subparagraph {
+  color: rgba(4, 3, 6, 0.4);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.28;
+  padding-bottom: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .reviews-header {
+    max-width: 553px;
+    font-size: 64px;
+    line-height: 1;
+    letter-spacing: -0.015em;
+    padding-bottom: 25px;
+  }
+
+  .reviews-paragraph {
+    max-width: 553px;
+    font-size: 16px;
+    line-height: 1.25;
+    padding-bottom: 50px;
+  }
+
+  .reviews-list {
+    display: flex;
+    gap: 18px;
+  }
+
+  .reviews {
+    padding: 20px 20px;
+  }
+
+  .reviews-list .reviews:nth-last-child(n + 2) {
+    display: flex;
+  }
+
+  .reviews-image {
+    padding-bottom: 24px;
+  }
+
+  .reviews-subheader {
+    color: #141414;
+    font-size: 18px;
+    line-height: 1.1;
+  }
+  .reviews-subparagraph {
+    color: rgba(20, 20, 20, 0.4);
+    font-size: 16px;
+    line-height: 1.4;
+    width: 288px;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-list {
+    gap: 25px;
+  }
+
+  .reviews-list .reviews:nth-last-child(n + 1) {
+    display: flex;
+  }
 }

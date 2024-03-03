@@ -1,9 +1,5 @@
-.advertisement.section {
+.promo {
   background: #fbfbfb;
-}
-
-.advertisement.section .container {
-  padding: 0 10px;
 }
 .visually-hidden {
   position: absolute;
@@ -17,7 +13,11 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.discount {
+.promo {
+  padding: 0 10px;
+}
+
+.promo-text-fill {
   display: block;
   padding: 3px 10px;
   color: #fbfbfb;
@@ -30,7 +30,7 @@
   background-color: #576f35;
 }
 
-.text {
+.promo-text {
   display: block;
   padding: 0 10px;
   color: #141414;
@@ -42,17 +42,17 @@
 }
 
 @media screen and (min-width: 768px) {
-  .advertisement.section .container {
+  .promo {
     padding: 0 16px;
   }
 
-  .discount {
+  .promo-text-fill {
     padding: 8px 16px;
     font-size: 64px;
     line-height: 1.09;
   }
 
-  .text {
+  .promo-text {
     padding: 0 16px;
     font-size: 64px;
     line-height: 1.09;
@@ -60,18 +60,18 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .advertisement.section .container {
-    padding: 0 100px;
+  .promo {
+    padding: 0 113px;
   }
 
-  .discount {
+  .promo-text-fill {
     display: inline-block;
     padding: 0 13px;
     font-size: 76px;
     line-height: 1.05;
   }
 
-  .text {
+  .promo-text {
     display: inline-block;
     display: inline;
     padding: 0 13px;

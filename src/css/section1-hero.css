@@ -117,6 +117,7 @@
     }
   }
   .hero-title {
+    margin-bottom: 128px;
     max-width: 502px;
   }
   .hero-text {
