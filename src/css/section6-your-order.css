@@ -1,9 +1,4 @@
-.container {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.your-order-container {
+.background-order {
   background-color: #7a3145;
 }
 
@@ -49,10 +44,6 @@
   display: flex;
   flex-direction: column;
 }
-
-/* .your-order-form:not(:last-child) {
-  gap: 15px;
-} */
 
 .form-text {
   font-weight: 600;
@@ -231,11 +222,6 @@ textarea::placeholder {
 /* Tablet */
 
 @media (min-width: 768px) {
-  .container {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-
   .your-order-container {
     display: flex;
     flex-direction: column;
@@ -325,10 +311,6 @@ textarea::placeholder {
 /* Desktop */
 
 @media (min-width: 1280px) {
-  .container {
-    padding: 100px;
-  }
-
   .order-top-container {
     display: flex;
     align-self: start;

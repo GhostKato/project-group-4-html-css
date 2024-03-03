@@ -73,7 +73,6 @@
     max-width: 704px;
     font-size: 76px;
     margin-bottom: 25px;
-    margin-top: 122px;
   }
   .hero-text {
     font-size: 16px;
@@ -118,8 +117,8 @@
     }
   }
   .hero-title {
-    max-width: 502px;
     margin-bottom: 128px;
+    max-width: 502px;
   }
   .hero-text {
     max-width: 472px;
