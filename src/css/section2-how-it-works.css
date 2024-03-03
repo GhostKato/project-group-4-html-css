@@ -1,25 +1,3 @@
-.how-photo {
-  background-color: #7a3145;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.how-picture {
-  border-radius: 30px; 
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.how-container {
-  position: relative;
-  overflow: hidden;
-
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -33,27 +11,48 @@
   overflow: hidden;
 }
 
-.picture-gradien {
+.how {
+  background: linear-gradient(to top, #576f35 55.2%, #7a3145 44.8%);
+  padding: 40px 0 80px;
+}
+
+.how-container {
+  padding: 0 20px 40px;
+}
+
+.work-container {
+  margin: 0 auto;
+  max-width: 375px;
+  display:flex;
+  flex-direction: column;
+}
+
+.picture-gradient {
+  display: block;
+  position: relative;
+  line-height: 0;
+}
+
+.picture-gradient:after {
+  border-radius: 30px;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  width: 335px;
-  height: 100%;
-  border-radius: 30px;
-  background: linear-gradient(
-    0deg,
-    rgba(20, 20, 20, 0.3) 0%,
-    rgba(20, 20, 20, 0.3) 100%
-  );
+  background: transparent;
+  background-image: linear-gradient(rgba(20, 20, 20, 0.30), rgba(20, 20, 20, 0.30), rgba(20, 20, 20, 0.30));
 }
 
-.steps {
-  background-color: #576f35;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+.how-picture {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.steps-container {
+  padding: 80px 20px 0;
 }
 
 .steps-text {
@@ -89,7 +88,6 @@
 .steps-items {
   border-radius: 15px;
   background-color: #fbfbfb;
-  /* padding: 12px 27px 12px 24px; */
   height: 76px;
   position: relative;
   line-height: 1;
@@ -125,11 +123,7 @@
   font-weight: 400;
   line-height: 1.16;
   letter-spacing: -0.02em;
-  padding-left: 100px;
-}
-
-.steps-items-second {
-  padding-top: 12px;
+  padding: 0 27px 0 100px ;
 }
 
 .steps-items-paragraph > span {
@@ -137,61 +131,79 @@
   font-weight: 700;
 }
 
-@media screen and (max-width: 375px) {
-  .how-container .steps-container {
-    width: 335px;
-  }
-
-  .picture-gradien {
-    max-width: 640px;
+@media screen and (max-width: 374px) {
+  .steps-container {
+    background-color: #576f35;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .how-photo {
-    margin: 0 auto;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+  .work-container {
+    max-width: 768px;
+  }
+
+  .how {
+    background: linear-gradient(to bottom, #7a3145 54.6%, #576f35 45.4%);
+    padding: 100px 0;
   }
 
   .how-container {
-    width: 640px;
-    height: 640px;
-    margin: 0 auto;
-  }
-
-  .how-picture {
-    width: 640px;
-  }
-
-  .picture-gradien {
-    width: 640px;
-    height: 640px;
-    /* left: 32px; */
+    padding: 0 64px 100px;
   }
 
   .steps-container {
-    max-width: 450px;
-    margin: 0 auto;
+    padding: 100px 159px 0;
+  }
+
+  .steps-text {
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.015em;
+  }
+
+  .steps-paragraph {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .steps-items-paragraph {
+    font-size: 16px;
+    line-height: 1.25;
   }
 }
 
-@media screen and (mim-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .how {
+    display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    background: linear-gradient(to left, #576f35 50.8%, #7a3145 49.2%);
+    padding: 100px 0;
   }
 
+  .work-container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 1280px;
+    gap: 200px;
+  }
 
+  .how-container {
+    padding: 0 0 0 100px;
+    width: 100%;
+    background-color: transparent;
 
-  .picture-gradien {
+  }
+
+  .steps-container {
+    padding: 0 100px 0 0;
+    background-color: transparent;
+  }
+  .steps-items-paragraph {
+    padding-right: 25px;
+  }
+
+  .picture-gradient {
     width: 430px;
-  }
-
-  .how-container .steps-container {
-    width: 1280px;
-    padding-left: 100px;
-    padding-right: 100px;
   }
 }
