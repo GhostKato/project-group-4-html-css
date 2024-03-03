@@ -43,7 +43,7 @@
 
 @media screen and (min-width: 768px) {
   .promo {
-    padding: 100px 16px;
+    padding: 113px 13px;
   }
 
   .promo-text-fill {
@@ -61,7 +61,7 @@
 
 @media screen and (min-width: 1280px) {
   .promo {
-    padding: 113px 13px;
+    padding: 100px 13px;
   }
 
   .promo-text-fill {
@@ -69,13 +69,17 @@
     padding: 0 13px;
     font-size: 76px;
     line-height: 1.05;
+    
   }
 
   .promo-text {
     display: inline-block;
     display: inline;
-    padding: 0 13px;
+    padding:  0 13px;
     font-size: 76px;
     line-height: 1.05;
+    text-transform: uppercase;
+
   }
 }
+
