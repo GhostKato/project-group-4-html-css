@@ -21,7 +21,7 @@
     />
     
     <script type="module" crossorigin src="/project-group-4-html-css/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-group-4-html-css/assets/index-d2436526.css">
+    <link rel="stylesheet" href="/project-group-4-html-css/assets/index-1fb1d91f.css">
   </head>
   <body>
     <header class="header">
@@ -249,7 +249,7 @@
 </section>
       <section class="reviews-section">
   <div class="container">
-    <h2 class="reviews-header">
+    <h2 id="reviews" class="reviews-header">
       reviews from our <span class="text-coloured">customers</span>
     </h2>
     <p class="reviews-paragraph">
@@ -399,125 +399,125 @@
   </div>
 </section>
 
-      <section class="container your-order-container section">
-  <div class="order-top-container">
-    <h2 class="your-order-title">
-      Fresh <span class="harvest-span">Harvest</span> Box has got you covered
-    </h2>
-    <p class="your-order-text">
-      Our boxes are packed with delicious, nutritious vegetables, perfect for
-      anyone looking to eat healthier or support local farmers. Order your box
-      today and start enjoying the best that nature has to offer!
-    </p>
-  </div>
-  <div class="order-bottom-container">
-    <form name="order-form" class="your-order-form">
-      <p class="form-text">
-        Ordering <span class="from-us-span">from us</span> is quick and easy!
-        Fill out <span class="the-form-span">the form</span> below and we will
-        contact you !
+      <section class="background-order">
+  <div class="container section">
+    <div class="order-top-container">
+      <h2 class="your-order-title">
+        Fresh <span class="harvest-span">Harvest</span> Box has got you covered
+      </h2>
+      <p class="your-order-text">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
       </p>
-      <label for="username" class="form-label">
-        <input
-          type="text"
-          name="username"
-          id="username"
-          class="form-input"
-          placeholder="Full Name"
-          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-          required
-        />
-      </label>
-      <label for="email" class="form-label">
-        <input
-          type="email"
-          name="email"
-          id="email"
-          class="form-input"
-          placeholder="Email"
-          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-          required
-        />
-        <!-- <p class="text-valid">Succes!</p>
-        <p class="text-invalid">Invalid email, try again</p> -->
-      </label>
-      <label for="comment" class="form-label textarea-label">
-        <textarea
-          name="comment"
-          id="comment"
-          class="form-textarea"
-          placeholder="Comment"
-        ></textarea>
-      </label>
-      <button type="submit" class="form-btn">Send</button>
-    </form>
-    <div class="socials-container">
-      <picture>
-        <source
-          media="(min-width: 375px )"
-          type="image/webp"
-          srcset="/project-group-4-html-css/assets/smoothie-mob-webp-1x-bb6de5ff.webp 1x, /project-group-4-html-css/assets/smoothie-mob-webp-2x-8f91a58e.webp 2x"
-        />
-        <source
-          media="(min-width: 375px )"
-          type="image/jpeg"
-          srcset="/project-group-4-html-css/assets/smoothie-mob-1x-66c2d51e.jpg 1x, /project-group-4-html-css/assets/smoothie-mob-2x-4d455c46.jpg 2x"
-        />
-        <source
-          media="(min-width: 768px )"
-          type="image/webp"
-          srcset="/project-group-4-html-css/assets/smoothie-tab-webp-1x-d64a3adb.webp 1x, /project-group-4-html-css/assets/smoothie-tab-webp-2x-45de87b3.webp 2x"
-        />
-        <source
-          media="(min-width: 768px )"
-          type="image/jpeg"
-          srcset="/project-group-4-html-css/assets/smoothie-tab-1x-550c3803.jpg 1x, /project-group-4-html-css/assets/smoothie-tab-2x-65ebcb06.jpg 2x"
-        />
-        <source
-          media="(min-width: 1280px )"
-          type="image/webp"
-          srcset="/project-group-4-html-css/assets/smoothie-desk-webp-1x-d08b617e.webp 1x, /project-group-4-html-css/assets/smoothie-desk-webp-2x-60fa5267.webp 2x"
-        />
-        <source
-          media="(min-width: 1280px )"
-          type="image/jpeg"
-          srcset="/project-group-4-html-css/assets/smoothie-desk-1x-7186a3ed.jpg 1x, /project-group-4-html-css/assets/smoothie-desk-2x-b577129a.jpg 2x"
-        />
-        <img
-          class="socials-image"
-          src="/project-group-4-html-css/assets/smoothie-desk-1x-7186a3ed.jpg"
-          alt="girl making a smoothie"
-          loading="lazy"
-          width="528"
-        />
-      </picture>
-      <p class="socials-text">Follow us on our social networks:</p>
-      <ul class="socials-list">
-        <li class="socials-item">
-          <a
-            href="https://www.instagram.com/goitclub/"
-            class="socials-link"
-            target="_blank"
-            >instagram /</a
-          >
-        </li>
-        <li class="socials-item">
-          <a
-            href="https://www.facebook.com/goITclub/"
-            class="socials-link"
-            target="_blank"
-            >facebook /</a
-          >
-        </li>
-        <li class="socials-item">
-          <a
-            href="https://www.youtube.com/c/GoIT "
-            class="socials-link"
-            target="_blank"
-            >youtube</a
-          >
-        </li>
-      </ul>
+    </div>
+    <div class="order-bottom-container">
+      <form name="order-form" class="your-order-form">
+        <p class="form-text">
+          Ordering <span class="from-us-span">from us</span> is quick and easy!
+          Fill out <span class="the-form-span">the form</span> below and we will
+          contact you !
+        </p>
+        <label for="username" class="form-label">
+          <input
+            type="text"
+            name="username"
+            id="username"
+            class="form-input"
+            placeholder="Full Name"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+        </label>
+        <label for="email" class="form-label">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-input"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+        </label>
+        <label for="comment" class="form-label textarea-label">
+          <textarea
+            name="comment"
+            id="comment"
+            class="form-textarea"
+            placeholder="Comment"
+          ></textarea>
+        </label>
+        <button type="submit" class="form-btn">Send</button>
+      </form>
+      <div class="socials-container">
+        <picture>
+          <source
+            media="(min-width: 375px )"
+            type="image/webp"
+            srcset="/project-group-4-html-css/assets/smoothie-mob-webp-1x-bb6de5ff.webp 1x, /project-group-4-html-css/assets/smoothie-mob-webp-2x-8f91a58e.webp 2x"
+          />
+          <source
+            media="(min-width: 375px )"
+            type="image/jpeg"
+            srcset="/project-group-4-html-css/assets/smoothie-mob-1x-66c2d51e.jpg 1x, /project-group-4-html-css/assets/smoothie-mob-2x-4d455c46.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px )"
+            type="image/webp"
+            srcset="/project-group-4-html-css/assets/smoothie-tab-webp-1x-d64a3adb.webp 1x, /project-group-4-html-css/assets/smoothie-tab-webp-2x-45de87b3.webp 2x"
+          />
+          <source
+            media="(min-width: 768px )"
+            type="image/jpeg"
+            srcset="/project-group-4-html-css/assets/smoothie-tab-1x-550c3803.jpg 1x, /project-group-4-html-css/assets/smoothie-tab-2x-65ebcb06.jpg 2x"
+          />
+          <source
+            media="(min-width: 1280px )"
+            type="image/webp"
+            srcset="/project-group-4-html-css/assets/smoothie-desk-webp-1x-d08b617e.webp 1x, /project-group-4-html-css/assets/smoothie-desk-webp-2x-60fa5267.webp 2x"
+          />
+          <source
+            media="(min-width: 1280px )"
+            type="image/jpeg"
+            srcset="/project-group-4-html-css/assets/smoothie-desk-1x-7186a3ed.jpg 1x, /project-group-4-html-css/assets/smoothie-desk-2x-b577129a.jpg 2x"
+          />
+          <img
+            class="socials-image"
+            src="/project-group-4-html-css/assets/smoothie-desk-1x-7186a3ed.jpg"
+            alt="girl making a smoothie"
+            loading="lazy"
+            width="528"
+          />
+        </picture>
+        <p class="socials-text">Follow us on our social networks:</p>
+        <ul class="socials-list">
+          <li class="socials-item">
+            <a
+              href="https://www.instagram.com/goitclub/"
+              class="socials-link"
+              target="_blank"
+              >instagram /</a
+            >
+          </li>
+          <li class="socials-item">
+            <a
+              href="https://www.facebook.com/goITclub/"
+              class="socials-link"
+              target="_blank"
+              >facebook /</a
+            >
+          </li>
+          <li class="socials-item">
+            <a
+              href="https://www.youtube.com/c/GoIT "
+              class="socials-link"
+              target="_blank"
+              >youtube</a
+            >
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
