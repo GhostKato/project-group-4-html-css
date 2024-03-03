@@ -3,9 +3,8 @@
   padding-bottom: 80px;
 } */
 
-.your-order-container {
+.section-your-order {
   background-color: #7a3145;
-  /* width: 100%; */
 }
 
 .order-top-container {
@@ -168,9 +167,8 @@ textarea::placeholder {
 
 .form-btn {
   border-radius: 30px;
-  /* padding: 16px 129px; */
   width: 100%;
-  height: 50px;
+  min-height: 50px;
   background-color: #576f35;
   font-weight: 600;
   font-size: 14px;
@@ -237,18 +235,7 @@ textarea::placeholder {
     padding-bottom: 100px;
   } */
 
-  .your-order-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
   .order-top-container {
-    padding-left: 32px;
-    padding-right: 96px;
     gap: 25px;
     margin-bottom: 50px;
   }
@@ -263,16 +250,17 @@ textarea::placeholder {
   .your-order-text {
     font-size: 16px;
     line-height: 1.25;
+    max-width: 640px;
   }
 
   .order-bottom-container {
-    padding: 0 70px;
+    align-items: center;
   }
 
   .your-order-form {
     max-width: 628px;
     width: 100%;
-    max-height: 534px;
+    min-height: 534px;
     padding: 50px 100px;
   }
 
@@ -289,7 +277,7 @@ textarea::placeholder {
   }
 
   .form-btn {
-    height: 52px;
+    min-height: 52px;
   }
 
   .socials-container {
@@ -334,7 +322,6 @@ textarea::placeholder {
     display: flex;
     align-self: start;
     max-width: 750px;
-    padding: 0;
     gap: 25px;
     margin-bottom: 50px;
   }
@@ -343,11 +330,14 @@ textarea::placeholder {
     text-align: start;
   }
 
+  .your-order-text {
+    min-width: 742px;
+  }
+
   .order-bottom-container {
     display: flex;
     flex-direction: row;
     gap: 24px;
-    padding: 0;
   }
 
   .your-order-form {
@@ -363,7 +353,6 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
   }
 
   .socials-text {
