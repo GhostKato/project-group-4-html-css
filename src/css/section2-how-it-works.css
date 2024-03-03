@@ -1,30 +1,64 @@
-.how {
-}
-
 .how-photo {
-  background-color: #7A3145;
+  background-color: #7a3145;
   padding-top: 40px;
   padding-bottom: 40px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .how-picture {
+  border-radius: 30px; 
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.how-container {
+  position: relative;
+  overflow: hidden;
+
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.picture-gradien {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 335px;
+  height: 100%;
   border-radius: 30px;
-  background: linear-gradient(0deg, rgba(20, 20, 20, 0.30) 0%, rgba(20, 20, 20, 0.30) 100%), url(<path-to-image>), lightgray -205.954px 0px / 222.958% 110.667% no-repeat;
+  background: linear-gradient(
+    0deg,
+    rgba(20, 20, 20, 0.3) 0%,
+    rgba(20, 20, 20, 0.3) 100%
+  );
 }
 
 .steps {
-  background-color: #576F35;
+  background-color: #576f35;
   padding-top: 80px;
   padding-bottom: 80px;
-}
-
-.container {
-
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .steps-text {
   margin-bottom: 20px;
-  color: #FBFBFB;
+  color: #fbfbfb;
   font-size: 28px;
   font-weight: 600;
   line-height: 1;
@@ -32,13 +66,13 @@
   text-transform: uppercase;
 }
 
-.steps-text>span {
-  color: rgba(251, 251, 251, 0.30);
+.steps-text > span {
+  color: rgba(251, 251, 251, 0.3);
 }
 
 .steps-paragraph {
   margin-bottom: 40px;
-  color: #FBFBFB;
+  color: #fbfbfb;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.28;
@@ -54,27 +88,30 @@
 
 .steps-items {
   border-radius: 15px;
-  background-color: #FBFBFB;
-  padding: 12px 27px 12px 24px;
+  background-color: #fbfbfb;
+  /* padding: 12px 27px 12px 24px; */
   height: 76px;
   position: relative;
   line-height: 1;
+  counter-increment: steps-items;
+  display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .steps-items::before {
-  content: counter(steps-item);
-  counter-increment: steps-item;
+  content: counter(steps-items);
   position: absolute;
   left: 24px;
-  top: 12px;
+  top: 17px;
   width: 42px;
   height: 42px;
+  outline: 5px solid rgba(122, 49, 69, 0.3);
   border-radius: 50%;
-  background-color: #7A3145;
-  color: #FBFBFB;
-  text-align: center;
+  background-color: #7a3145;
+  color: #fbfbfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   line-height: 1;
   font-weight: 600;
   letter-spacing: -0.02em;
@@ -82,16 +119,79 @@
 
 .steps-items-paragraph {
   height: 42px;
-  color: rgba(20, 20, 20, 0.60);
-  font-family: "Inter Tight";
+  color: rgba(20, 20, 20, 0.6);
+  font-family: 'Inter Tight';
   font-size: 12px;
   font-weight: 400;
   line-height: 1.16;
   letter-spacing: -0.02em;
-  padding-left: 70px;
+  padding-left: 100px;
 }
 
-.steps-items-paragraph>span {
+.steps-items-second {
+  padding-top: 12px;
+}
+
+.steps-items-paragraph > span {
   color: #141414;
   font-weight: 700;
+}
+
+@media screen and (max-width: 375px) {
+  .how-container .steps-container {
+    width: 335px;
+  }
+
+  .picture-gradien {
+    max-width: 640px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .how-photo {
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .how-container {
+    width: 640px;
+    height: 640px;
+    margin: 0 auto;
+  }
+
+  .how-picture {
+    width: 640px;
+  }
+
+  .picture-gradien {
+    width: 640px;
+    height: 640px;
+    /* left: 32px; */
+  }
+
+  .steps-container {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (mim-width: 1280px) {
+  .how {
+    flex-direction: row;
+  }
+
+
+
+  .picture-gradien {
+    width: 430px;
+  }
+
+  .how-container .steps-container {
+    width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }
