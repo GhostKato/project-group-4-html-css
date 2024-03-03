@@ -62,8 +62,7 @@
 
 @media screen and (min-width: 1280px) {
   .promo.section .container {
-
-    padding: 0 100px;
+  padding: 0 113px;
   }
 
   .promo-text-fill {
@@ -71,6 +70,7 @@
     padding: 0 13px ;
     font-size: 76px;
     line-height: 1.05;
+    
   }
 
   .promo-text {
@@ -79,5 +79,7 @@
     padding: 0 13px;
     font-size: 76px;
     line-height: 1.05;
+ 
+   
   }
 }
