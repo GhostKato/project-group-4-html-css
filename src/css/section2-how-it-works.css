@@ -1,5 +1,5 @@
 .background-section2 {
-  background: linear-gradient(to right, #7a3145 50%, #576f35 50%);
+  background: linear-gradient(to bottom, #7a3145 45%, #576f35 45%);
 }
 .container-section2 {
   width: 100%;
@@ -118,6 +118,9 @@
 /* Tablet */
 
 @media screen and (min-width: 768px) {
+  .background-section2 {
+    background: linear-gradient(to bottom, #7a3145 55%, #576f35 45%);
+  }
   .container-section2 {
     width: 768px;
   }
@@ -175,6 +178,9 @@
 /* Desktop */
 
 @media screen and (min-width: 1280px) {
+  .background-section2 {
+    background: linear-gradient(to right, #7a3145 50%, #576f35 50%);
+  }
   .container-section2 {
     width: 1280px;
     flex-direction: row;
