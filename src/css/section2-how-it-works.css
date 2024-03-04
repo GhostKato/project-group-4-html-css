@@ -1,4 +1,5 @@
 .background-section2 {
+  background: linear-gradient(to right, #7a3145 50%, #576f35 50%);
 }
 .container-section2 {
   width: 100%;
