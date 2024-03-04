@@ -1,45 +1,208 @@
-<section class="how">
-    <div class="container">
-        <div class="how-photo">
-            <picture>
-                <source
-                media="(max-width: 767px )" type="image/webp" srcset="./img/home-cooking-mob.webp 1x, ./img/home-cooking-mob-2x.webp 2x" />
-                <source
-                media="(max-width: 767px )" type="image/jpeg" srcset="./img/home-cooking-mob.jpg 1x, ./img/home-cooking-mob-2x.jpg 2x" />
-                <source
-                media="(min-width: 768px )" type="image/webp" srcset="./img/home-cooking-pl.webp 1x, ./img/home-cooking-pl-2x.webp 2x" />
-                <source
-                media="(min-width: 768px )" type="image/jpeg" srcset="./img/home-cooking-pl.jpg 1x, ./img/home-cooking-pl-2x.jpg 2x" />
-                <source
-                 media="(min-width: 1280px )" type="image/webp" srcset="./img/home-cooking-desk.webp 1x, ./img/home-cooking-desk-2x.webp 2x" />
-                <source
-                 media="(min-width: 1280px )" type="image/jpeg" srcset="./img/home-cooking-desk.jpg 1x, ./img/home-cooking-desk-2x.jpg 2x" />
-                <img
-                src="./img/home-cooking-des.jpg"
-                 alt="Online Courses" loading="lazy" width="360"
-                />
-                </picture>
-        </div>
-        <div class="steps">
-            <h2 class="steps-text">To order your <span>vegetable</span> basket, simply follow these <span>easy steps</span></h2>
-            <p class="steps-paragraph">Our baskets are assembled with care and delivered straight to your doorstep, so you can enjoy the taste of fresh fruit without ever leaving your home.</p>
-            <ol class="steps-list">
-                <li class="steps-items"><!-- тут цифри зробимо через псевдоелементи -->
-                    <p class="steps-items-paragraph">
-                        Just choose <span>the vegetable</span> you want to order by clicking on the checkboxes <span>next to it.</span>
-                    </p>
-                </li>
-                <li class="steps-items">
-                    <p class="steps-items-paragraph">
-                        Click on <span>the basket</span> and fill out the form.
-                    </p>
-                </li>
-                <li class="steps-items">
-                    <p class="steps-items-paragraph">
-                        Sit back and relax! Your <span>fresh vegetables</span> basket will be delivered.
-                    </p>
-                </li>
-            </ol>
-        </div>
+<section class="background-section2">
+  <div class="container-section2">
+    <div class="container-red">
+      <div class="container-picture">
+        <picture class="picture-gradient">
+          <source
+            media="(max-width: 767px )"
+            type="image/webp"
+            srcset="
+              ./img/home-cooking-mob.webp    1x,
+              ./img/home-cooking-mob-2x.webp 2x
+            "
+          />
+          <source
+            media="(max-width: 767px )"
+            type="image/jpeg"
+            srcset="
+              ./img/home-cooking-mob.jpg    1x,
+              ./img/home-cooking-mob-2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 768px )"
+            type="image/webp"
+            srcset="
+              ./img/home-cooking-pl.webp    1x,
+              ./img/home-cooking-pl-2x.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 768px )"
+            type="image/jpeg"
+            srcset="
+              ./img/home-cooking-pl.jpg    1x,
+              ./img/home-cooking-pl-2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 1280px )"
+            type="image/webp"
+            srcset="
+              ./img/home-cooking-desk.webp    1x,
+              ./img/home-cooking-desk-2x.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 1280px )"
+            type="image/jpeg"
+            srcset="
+              ./img/home-cooking-desk.jpg    1x,
+              ./img/home-cooking-desk-2x.jpg 2x
+            "
+          />
+          <img
+            class="how-picture"
+            src="./img/home-cooking-des.jpg"
+            alt="Online Courses"
+            loading="lazy"
+            width="360"
+          />
+        </picture>
+      </div>
     </div>
+
+    <div class="container-green">
+      <div class="steps-container">
+        <h2 class="steps-text">
+          To order your <span>vegetable</span> basket, simply follow these
+          <span>easy steps</span>
+        </h2>
+        <p class="steps-paragraph">
+          Our baskets are assembled with care and delivered straight to your
+          doorstep, so you can enjoy the taste of fresh fruit without ever
+          leaving your home.
+        </p>
+
+        <ol class="steps-list">
+          <li class="steps-items">
+            <p class="steps-items-paragraph">
+              Just choose <span>the vegetable</span> you want to order by
+              clicking on the checkboxes <span>next to it.</span>
+            </p>
+          </li>
+          <li class="steps-items">
+            <p class="steps-items-paragraph step-items-duo">
+              Click on <span>the basket</span> and fill out the form.
+            </p>
+          </li>
+          <li class="steps-items">
+            <p class="steps-items-paragraph">
+              Sit back and relax! Your
+              <span>fresh vegetables</span>
+              basket will be delivered.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
 </section>
+
+<!-- <section class="how">
+  <div class="section2-container">
+    <div class="how-photo">
+      <div class="how-container">
+        <p class="visually-hidden">How it's work's</p>
+        <div class="picture-gradien"></div>
+        <picture class="picture-gradient">
+          <source
+            media="(max-width: 767px )"
+            type="image/webp"
+            srcset="
+              ./img/home-cooking-mob.webp    1x,
+              ./img/home-cooking-mob-2x.webp 2x
+            "
+          />
+          <source
+            media="(max-width: 767px )"
+            type="image/jpeg"
+            srcset="
+              ./img/home-cooking-mob.jpg    1x,
+              ./img/home-cooking-mob-2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 768px )"
+            type="image/webp"
+            srcset="
+              ./img/home-cooking-pl.webp    1x,
+              ./img/home-cooking-pl-2x.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 768px )"
+            type="image/jpeg"
+            srcset="
+              ./img/home-cooking-pl.jpg    1x,
+              ./img/home-cooking-pl-2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 1280px )"
+            type="image/webp"
+            srcset="
+              ./img/home-cooking-desk.webp    1x,
+              ./img/home-cooking-desk-2x.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 1280px )"
+            type="image/jpeg"
+            srcset="
+              ./img/home-cooking-desk.jpg    1x,
+              ./img/home-cooking-desk-2x.jpg 2x
+            "
+          />
+          <img
+            class="how-picture"
+            src="./img/home-cooking-des.jpg"
+            alt="Online Courses"
+            loading="lazy"
+            width="360"
+          />
+        </picture>
+      </div>
+    </div>
+
+    <div class="steps">
+      <div class="steps-container">
+        <h2 class="steps-text">
+          To order your <span>vegetable</span> basket, simply follow these
+          <span>easy steps</span>
+        </h2>
+        <p class="steps-paragraph">
+          Our baskets are assembled with care and delivered straight to your
+          doorstep, so you can enjoy the taste of fresh fruit without ever
+          leaving your home.
+        </p>
+        <ol class="steps-list">
+          <li class="steps-items"> -->
+<!-- тут цифри зробимо через псевдоелементи -->
+<!-- <p class="steps-items-paragraph">
+              Just choose <span>the vegetable</span> you want<br />
+              to order by clicking on the<br />
+              checkboxes <span>next to it.</span>
+            </p>
+          </li>
+          <li class="steps-items steps-items-second">
+            <p class="steps-items-paragraph">
+              Click on <span>the basket</span> and fill out<br />
+              the form.
+            </p>
+          </li>
+          <li class="steps-items steps-items-second">
+            <p class="steps-items-paragraph">
+              Sit back and relax! Your
+              <span
+                >fresh<br />
+                vegetables</span
+              >
+              basket will be delivered.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section> -->
