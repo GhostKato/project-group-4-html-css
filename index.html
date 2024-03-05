@@ -29,17 +29,24 @@
     <nav class="header-navigation">
       <a class="header-logo-link" href="">
         <svg class="header-logo-icon">
-          <use class="header-logo-icon-link" href="/project-group-4-html-css/assets/icons-f8af6c84.svg#icon-logo"></use>
-        </svg></a>
+          <use
+            class="header-logo-icon-link"
+            href="/project-group-4-html-css/assets/icons-f8af6c84.svg#icon-logo"
+          ></use></svg
+      ></a>
       <ul class="header-navigation-list">
         <li class="header-navigation-list-item">
-          <a class="header-list-item-link" href="#how-it-works">How It Works</a>
+          <a class="header-list-item-link scroll-to" href="#how-it-works"
+            >How It Works</a
+          >
         </li>
         <li class="header-navigation-list-item">
-          <a class="header-list-item-link" href="#vegetables">Vegetables</a>
+          <a class="header-list-item-link scroll-to" href="#vegetables"
+            >Vegetables</a
+          >
         </li>
         <li class="header-navigation-list-item">
-          <a class="header-list-item-link" href="#reviews">Reviews</a>
+          <a class="header-list-item-link scroll-to" href="#reviews">Reviews</a>
         </li>
       </ul>
     </nav>
@@ -51,6 +58,7 @@
     </button>
   </div>
 </header>
+
     <main>
       <section class="hero">
   <div class="hero-container container">
@@ -64,7 +72,7 @@
   </div>
 </section>
 
-      <section class="background-section2">
+      <section class="background-section2" id="how-it-works">
   <div class="container-section2">
     <div class="container-red">
       <div class="container-picture">
@@ -147,114 +155,6 @@
   </div>
 </section>
 
-<!-- <section class="how">
-  <div class="section2-container">
-    <div class="how-photo">
-      <div class="how-container">
-        <p class="visually-hidden">How it's work's</p>
-        <div class="picture-gradien"></div>
-        <picture class="picture-gradient">
-          <source
-            media="(max-width: 767px )"
-            type="image/webp"
-            srcset="
-              ./img/home-cooking-mob.webp    1x,
-              ./img/home-cooking-mob-2x.webp 2x
-            "
-          />
-          <source
-            media="(max-width: 767px )"
-            type="image/jpeg"
-            srcset="
-              ./img/home-cooking-mob.jpg    1x,
-              ./img/home-cooking-mob-2x.jpg 2x
-            "
-          />
-          <source
-            media="(min-width: 768px )"
-            type="image/webp"
-            srcset="
-              ./img/home-cooking-pl.webp    1x,
-              ./img/home-cooking-pl-2x.webp 2x
-            "
-          />
-          <source
-            media="(min-width: 768px )"
-            type="image/jpeg"
-            srcset="
-              ./img/home-cooking-pl.jpg    1x,
-              ./img/home-cooking-pl-2x.jpg 2x
-            "
-          />
-          <source
-            media="(min-width: 1280px )"
-            type="image/webp"
-            srcset="
-              ./img/home-cooking-desk.webp    1x,
-              ./img/home-cooking-desk-2x.webp 2x
-            "
-          />
-          <source
-            media="(min-width: 1280px )"
-            type="image/jpeg"
-            srcset="
-              ./img/home-cooking-desk.jpg    1x,
-              ./img/home-cooking-desk-2x.jpg 2x
-            "
-          />
-          <img
-            class="how-picture"
-            src="./img/home-cooking-des.jpg"
-            alt="Online Courses"
-            loading="lazy"
-            width="360"
-          />
-        </picture>
-      </div>
-    </div>
-
-    <div class="steps">
-      <div class="steps-container">
-        <h2 class="steps-text">
-          To order your <span>vegetable</span> basket, simply follow these
-          <span>easy steps</span>
-        </h2>
-        <p class="steps-paragraph">
-          Our baskets are assembled with care and delivered straight to your
-          doorstep, so you can enjoy the taste of fresh fruit without ever
-          leaving your home.
-        </p>
-        <ol class="steps-list">
-          <li class="steps-items"> -->
-<!-- тут цифри зробимо через псевдоелементи -->
-<!-- <p class="steps-items-paragraph">
-              Just choose <span>the vegetable</span> you want<br />
-              to order by clicking on the<br />
-              checkboxes <span>next to it.</span>
-            </p>
-          </li>
-          <li class="steps-items steps-items-second">
-            <p class="steps-items-paragraph">
-              Click on <span>the basket</span> and fill out<br />
-              the form.
-            </p>
-          </li>
-          <li class="steps-items steps-items-second">
-            <p class="steps-items-paragraph">
-              Sit back and relax! Your
-              <span
-                >fresh<br />
-                vegetables</span
-              >
-              basket will be delivered.
-            </p>
-          </li>
-        </ol>
-      </div>
-    </div>
-  </div>
-</section> -->
-
       <section class="promo">
   <div class="container section">
     <h2 class="visually-hidden">Advertisement</h2>
@@ -268,9 +168,11 @@
   </div>
 </section>
 
-      <section class="section4">
+      <section class="section4" id="vegetables">
   <div class="container section">
-    <h2 id="vegetables" class="section4-title">organic <span class="section4-title-part">vegetables</span></h2>
+    <h2 class="section4-title">
+      organic <span class="section4-title-part">vegetables</span>
+    </h2>
     <p class="section4-text">
       Our organic vegetables are hand-picked from local farms and delivered
       straight to your doorstep, ensuring that you get the freshest and most
@@ -282,20 +184,43 @@
           <h3 class="section4-subtitle">eggplant</h3>
           <p class="section4-desc">60 UAH / kg</p>
           <picture>
-            <source media="(max-width: 767px )" type="image/webp" srcset="/project-group-4-html-css/assets/eggplant-mob-1x-ed1e5ddd.webp 1x, /project-group-4-html-css/assets/eggplant-mob-2x-3430c879.webp 2x" />
-            <source media="(max-width: 767px )" type="image/jpeg"
-              srcset="/project-group-4-html-css/assets/eggplant-mob-5c2aee50.png 1x, /project-group-4-html-css/assets/eggplant-mob-2x-11b08eff.png 2x" />
-            <source media="(min-width: 768px )" type="image/webp" srcset="/project-group-4-html-css/assets/eggplant-tab-1x-4e359292.webp 1x, /project-group-4-html-css/assets/eggplant-tab-2x-95c18688.webp 2x" />
-            <source media="(min-width: 768px )" type="image/jpeg"
-              srcset="/project-group-4-html-css/assets/eggplant-tab-0764ff80.png 1x, /project-group-4-html-css/assets/eggplant-tab-2x-b232405a.png 2x" />
-            <source media="(min-width: 1280px )" type="image/webp" srcset="/project-group-4-html-css/assets/eggplant-tab-1x-4e359292.webp 1x, /project-group-4-html-css/assets/eggplant-tab-2x-95c18688.webp 2x" />
-            <source media="(min-width: 1280px )" type="image/jpeg"
-              srcset="/project-group-4-html-css/assets/eggplant-tab-0764ff80.png 1x, /project-group-4-html-css/assets/eggplant-tab-2x-b232405a.png 2x" />
-            <img src="/project-group-4-html-css/assets/eggplant-tab-0764ff80.png" 
-            class="section4-picture" 
-            alt="Eggplant" 
-            loading="lazy" 
-            width="282" />
+            <source
+              media="(max-width: 767px )"
+              type="image/webp"
+              srcset="/project-group-4-html-css/assets/eggplant-mob-1x-ed1e5ddd.webp 1x, /project-group-4-html-css/assets/eggplant-mob-2x-3430c879.webp 2x"
+            />
+            <source
+              media="(max-width: 767px )"
+              type="image/jpeg"
+              srcset="/project-group-4-html-css/assets/eggplant-mob-5c2aee50.png 1x, /project-group-4-html-css/assets/eggplant-mob-2x-11b08eff.png 2x"
+            />
+            <source
+              media="(min-width: 768px )"
+              type="image/webp"
+              srcset="/project-group-4-html-css/assets/eggplant-tab-1x-4e359292.webp 1x, /project-group-4-html-css/assets/eggplant-tab-2x-95c18688.webp 2x"
+            />
+            <source
+              media="(min-width: 768px )"
+              type="image/jpeg"
+              srcset="/project-group-4-html-css/assets/eggplant-tab-0764ff80.png 1x, /project-group-4-html-css/assets/eggplant-tab-2x-b232405a.png 2x"
+            />
+            <source
+              media="(min-width: 1280px )"
+              type="image/webp"
+              srcset="/project-group-4-html-css/assets/eggplant-tab-1x-4e359292.webp 1x, /project-group-4-html-css/assets/eggplant-tab-2x-95c18688.webp 2x"
+            />
+            <source
+              media="(min-width: 1280px )"
+              type="image/jpeg"
+              srcset="/project-group-4-html-css/assets/eggplant-tab-0764ff80.png 1x, /project-group-4-html-css/assets/eggplant-tab-2x-b232405a.png 2x"
+            />
+            <img
+              src="/project-group-4-html-css/assets/eggplant-tab-0764ff80.png"
+              class="section4-picture"
+              alt="Eggplant"
+              loading="lazy"
+              width="282"
+            />
           </picture>
         </div>
       </li>
@@ -304,19 +229,43 @@
           <h3 class="section4-subtitle">leek</h3>
           <p class="section4-desc">50 UAH / kg</p>
           <picture>
-            <source media="(max-width: 767px )" type="image/webp"
-              srcset="/project-group-4-html-css/assets/leek-mob-1x-19a7413f.webp 1x, /project-group-4-html-css/assets/leek-mob-2x-71164292.webp 2x" />
-            <source media="(max-width: 767px )" type="image/jpeg"
-              srcset="/project-group-4-html-css/assets/leek-mob-f2ece129.png 1x, /project-group-4-html-css/assets/leek-mob-x2-0771c137.png 2x" />
-            <source media="(min-width: 768px )" type="image/webp"
-              srcset="/project-group-4-html-css/assets/leek-tab-1x-a8e72da6.webp 1x, /project-group-4-html-css/assets/leek-tab-2x-8b8b7116.webp 2x" />
-            <source media="(min-width: 768px )" type="image/jpeg"
-              srcset="/project-group-4-html-css/assets/leek-tab-31b2d41a.png 1x, /project-group-4-html-css/assets/leek-tab-2x-0bb15216.png 2x" />
-            <source media="(min-width: 1280px )" type="image/webp"
-              srcset="/project-group-4-html-css/assets/leek-tab-1x-a8e72da6.webp 1x, /project-group-4-html-css/assets/leek-tab-2x-8b8b7116.webp 2x" />
-            <source media="(min-width: 1280px )" type="image/jpeg"
-              srcset="/project-group-4-html-css/assets/leek-tab-31b2d41a.png 1x, /project-group-4-html-css/assets/leek-tab-2x-0bb15216.png 2x" />
-            <img src="/project-group-4-html-css/assets/leek-tab-31b2d41a.png" class="section4-picture" alt="Leek" loading="lazy" width="282" />
+            <source
+              media="(max-width: 767px )"
+              type="image/webp"
+              srcset="/project-group-4-html-css/assets/leek-mob-1x-19a7413f.webp 1x, /project-group-4-html-css/assets/leek-mob-2x-71164292.webp 2x"
+            />
+            <source
+              media="(max-width: 767px )"
+              type="image/jpeg"
+              srcset="/project-group-4-html-css/assets/leek-mob-f2ece129.png 1x, /project-group-4-html-css/assets/leek-mob-x2-0771c137.png 2x"
+            />
+            <source
+              media="(min-width: 768px )"
+              type="image/webp"
+              srcset="/project-group-4-html-css/assets/leek-tab-1x-a8e72da6.webp 1x, /project-group-4-html-css/assets/leek-tab-2x-8b8b7116.webp 2x"
+            />
+            <source
+              media="(min-width: 768px )"
+              type="image/jpeg"
+              srcset="/project-group-4-html-css/assets/leek-tab-31b2d41a.png 1x, /project-group-4-html-css/assets/leek-tab-2x-0bb15216.png 2x"
+            />
+            <source
+              media="(min-width: 1280px )"
+              type="image/webp"
+              srcset="/project-group-4-html-css/assets/leek-tab-1x-a8e72da6.webp 1x, /project-group-4-html-css/assets/leek-tab-2x-8b8b7116.webp 2x"
+            />
+            <source
+              media="(min-width: 1280px )"
+              type="image/jpeg"
+              srcset="/project-group-4-html-css/assets/leek-tab-31b2d41a.png 1x, /project-group-4-html-css/assets/leek-tab-2x-0bb15216.png 2x"
+            />
+            <img
+              src="/project-group-4-html-css/assets/leek-tab-31b2d41a.png"
+              class="section4-picture"
+              alt="Leek"
+              loading="lazy"
+              width="282"
+            />
           </picture>
         </div>
       </li>
@@ -325,15 +274,43 @@
           <h3 class="section4-subtitle">mushrooms</h3>
           <p class="section4-desc">40 UAH / kg</p>
           <picture>
-            <source media="(max-width: 767px )" type="image/webp" srcset="/project-group-4-html-css/assets/mushrooms-mob-1x-7eb8e77e.webp 1x, /project-group-4-html-css/assets/mushrooms-mob-2x-0fdf4435.webp 2x" />
-            <source media="(max-width: 767px )" type="image/jpeg"
-              srcset="/project-group-4-html-css/assets/mushrooms-mob-b0c6a786.png 1x, /project-group-4-html-css/assets/mushrooms-mob-2x-518ad187.png 2x" />
-            <source media="(min-width: 768px )" type="image/webp" srcset="/project-group-4-html-css/assets/mushrooms-tab-1x-fbe10006.webp 1x, /project-group-4-html-css/assets/mushrooms-tab-2x-23a3adb1.webp 2x" />
-            <source media="(min-width: 768px )" type="image/jpeg"
-              srcset="/project-group-4-html-css/assets/mushrooms-tab-6acdef95.png 1x, /project-group-4-html-css/assets/mushrooms-tab-2x-1fa6f7e5.png 2x" />
-            <source media="(min-width: 1280px )" type="image/webp" srcset="/project-group-4-html-css/assets/mushrooms-tab-1x-fbe10006.webp 1x, /project-group-4-html-css/assets/mushrooms-tab-2x-23a3adb1.webp 2x" />
-            <source media="(min-width: 1280px )" type="image/jpeg" srcset="/project-group-4-html-css/assets/mushrooms-tab-6acdef95.png 1x, /project-group-4-html-css/assets/mushrooms-tab-2x-1fa6f7e5.png 2x" />
-            <img src="/project-group-4-html-css/assets/mushrooms-tab-6acdef95.png" class="section4-picture" alt="Mushrooms" loading="lazy" width="282" />
+            <source
+              media="(max-width: 767px )"
+              type="image/webp"
+              srcset="/project-group-4-html-css/assets/mushrooms-mob-1x-7eb8e77e.webp 1x, /project-group-4-html-css/assets/mushrooms-mob-2x-0fdf4435.webp 2x"
+            />
+            <source
+              media="(max-width: 767px )"
+              type="image/jpeg"
+              srcset="/project-group-4-html-css/assets/mushrooms-mob-b0c6a786.png 1x, /project-group-4-html-css/assets/mushrooms-mob-2x-518ad187.png 2x"
+            />
+            <source
+              media="(min-width: 768px )"
+              type="image/webp"
+              srcset="/project-group-4-html-css/assets/mushrooms-tab-1x-fbe10006.webp 1x, /project-group-4-html-css/assets/mushrooms-tab-2x-23a3adb1.webp 2x"
+            />
+            <source
+              media="(min-width: 768px )"
+              type="image/jpeg"
+              srcset="/project-group-4-html-css/assets/mushrooms-tab-6acdef95.png 1x, /project-group-4-html-css/assets/mushrooms-tab-2x-1fa6f7e5.png 2x"
+            />
+            <source
+              media="(min-width: 1280px )"
+              type="image/webp"
+              srcset="/project-group-4-html-css/assets/mushrooms-tab-1x-fbe10006.webp 1x, /project-group-4-html-css/assets/mushrooms-tab-2x-23a3adb1.webp 2x"
+            />
+            <source
+              media="(min-width: 1280px )"
+              type="image/jpeg"
+              srcset="/project-group-4-html-css/assets/mushrooms-tab-6acdef95.png 1x, /project-group-4-html-css/assets/mushrooms-tab-2x-1fa6f7e5.png 2x"
+            />
+            <img
+              src="/project-group-4-html-css/assets/mushrooms-tab-6acdef95.png"
+              class="section4-picture"
+              alt="Mushrooms"
+              loading="lazy"
+              width="282"
+            />
           </picture>
         </div>
       </li>
@@ -342,19 +319,43 @@
           <h3 class="section4-subtitle">corn</h3>
           <p class="section4-desc">60 UAH / kg</p>
           <picture>
-            <source media="(max-width: 767px )" type="image/webp"
-              srcset="/project-group-4-html-css/assets/corn-mob-1x-ca362b23.webp 1x, /project-group-4-html-css/assets/corn-mob-2x-10816ba6.webp 2x" />
-            <source media="(max-width: 767px )" type="image/jpeg"
-              srcset="/project-group-4-html-css/assets/corn-mob-0d29a7a5.png 1x, /project-group-4-html-css/assets/corn-mob-2x-616f63d0.png 2x" />
-            <source media="(min-width: 768px )" type="image/webp"
-              srcset="/project-group-4-html-css/assets/corn-tab-1x-5838c887.webp 1x, /project-group-4-html-css/assets/corn-tab-2x-35bad3b2.webp 2x" />
-            <source media="(min-width: 768px )" type="image/jpeg"
-              srcset="/project-group-4-html-css/assets/corn-tab-d80b7c34.png 1x, /project-group-4-html-css/assets/corn-tab-2x-b23475b0.png 2x" />
-            <source media="(min-width: 1280px )" type="image/webp"
-              srcset="/project-group-4-html-css/assets/corn-desk-1x-06021752.webp 1x, /project-group-4-html-css/assets/corn-desk-2x-fe4415aa.webp 2x" />
-            <source media="(min-width: 1280px )" type="image/jpeg"
-              srcset="/project-group-4-html-css/assets/corn-desk-96350c9e.png 1x, /project-group-4-html-css/assets/corn-desk-2x-9a91f210.png 2x" />
-            <img src="/project-group-4-html-css/assets/corn-desk-96350c9e.png" class="section4-picture" alt="Corn" loading="lazy" width="282" />
+            <source
+              media="(max-width: 767px )"
+              type="image/webp"
+              srcset="/project-group-4-html-css/assets/corn-mob-1x-ca362b23.webp 1x, /project-group-4-html-css/assets/corn-mob-2x-10816ba6.webp 2x"
+            />
+            <source
+              media="(max-width: 767px )"
+              type="image/jpeg"
+              srcset="/project-group-4-html-css/assets/corn-mob-0d29a7a5.png 1x, /project-group-4-html-css/assets/corn-mob-2x-616f63d0.png 2x"
+            />
+            <source
+              media="(min-width: 768px )"
+              type="image/webp"
+              srcset="/project-group-4-html-css/assets/corn-tab-1x-5838c887.webp 1x, /project-group-4-html-css/assets/corn-tab-2x-35bad3b2.webp 2x"
+            />
+            <source
+              media="(min-width: 768px )"
+              type="image/jpeg"
+              srcset="/project-group-4-html-css/assets/corn-tab-d80b7c34.png 1x, /project-group-4-html-css/assets/corn-tab-2x-b23475b0.png 2x"
+            />
+            <source
+              media="(min-width: 1280px )"
+              type="image/webp"
+              srcset="/project-group-4-html-css/assets/corn-desk-1x-06021752.webp 1x, /project-group-4-html-css/assets/corn-desk-2x-fe4415aa.webp 2x"
+            />
+            <source
+              media="(min-width: 1280px )"
+              type="image/jpeg"
+              srcset="/project-group-4-html-css/assets/corn-desk-96350c9e.png 1x, /project-group-4-html-css/assets/corn-desk-2x-9a91f210.png 2x"
+            />
+            <img
+              src="/project-group-4-html-css/assets/corn-desk-96350c9e.png"
+              class="section4-picture"
+              alt="Corn"
+              loading="lazy"
+              width="282"
+            />
           </picture>
         </div>
       </li>
@@ -363,17 +364,43 @@
           <h3 class="section4-subtitle">sweet potatoes</h3>
           <p class="section4-desc">50 UAH / kg</p>
           <picture>
-            <source media="(max-width: 767px )" type="image/webp" srcset="/project-group-4-html-css/assets/potatoes-mob-1x-d70a9fd5.webp 1x, /project-group-4-html-css/assets/potatoes-mob-2x-d4337478.webp 2x" />
-            <source media="(max-width: 767px )" type="image/jpeg"
-              srcset="/project-group-4-html-css/assets/potatoes-mob-6c5c30c7.png 1x, /project-group-4-html-css/assets/potatoes-mob-2x-52e73a2b.png 2x" />
-            <source media="(min-width: 768px )" type="image/webp" srcset="/project-group-4-html-css/assets/potatoes-tab-1x-5b288960.webp 1x, /project-group-4-html-css/assets/potatoes-tab-2x-76229bea.webp 2x" />
-            <source media="(min-width: 768px )" type="image/jpeg"
-              srcset="/project-group-4-html-css/assets/potatoes-tab-69455096.png 1x, /project-group-4-html-css/assets/potatoes-tab-2x-33d6a3e2.png 2x" />
-            <source media="(min-width: 1280px )" type="image/webp" srcset="/project-group-4-html-css/assets/potatoes-tab-1x-5b288960.webp 1x, /project-group-4-html-css/assets/potatoes-tab-2x-76229bea.webp 2x" />
-            <source media="(min-width: 1280px )" type="image/jpeg"
-              srcset="/project-group-4-html-css/assets/potatoes-tab-69455096.png 1x, /project-group-4-html-css/assets/potatoes-tab-2x-33d6a3e2.png 2x" />
-            <img src="/project-group-4-html-css/assets/potatoes-tab-69455096.png" class="section4-picture" alt="Sweet potatoes" loading="lazy"
-              width="282" />
+            <source
+              media="(max-width: 767px )"
+              type="image/webp"
+              srcset="/project-group-4-html-css/assets/potatoes-mob-1x-d70a9fd5.webp 1x, /project-group-4-html-css/assets/potatoes-mob-2x-d4337478.webp 2x"
+            />
+            <source
+              media="(max-width: 767px )"
+              type="image/jpeg"
+              srcset="/project-group-4-html-css/assets/potatoes-mob-6c5c30c7.png 1x, /project-group-4-html-css/assets/potatoes-mob-2x-52e73a2b.png 2x"
+            />
+            <source
+              media="(min-width: 768px )"
+              type="image/webp"
+              srcset="/project-group-4-html-css/assets/potatoes-tab-1x-5b288960.webp 1x, /project-group-4-html-css/assets/potatoes-tab-2x-76229bea.webp 2x"
+            />
+            <source
+              media="(min-width: 768px )"
+              type="image/jpeg"
+              srcset="/project-group-4-html-css/assets/potatoes-tab-69455096.png 1x, /project-group-4-html-css/assets/potatoes-tab-2x-33d6a3e2.png 2x"
+            />
+            <source
+              media="(min-width: 1280px )"
+              type="image/webp"
+              srcset="/project-group-4-html-css/assets/potatoes-tab-1x-5b288960.webp 1x, /project-group-4-html-css/assets/potatoes-tab-2x-76229bea.webp 2x"
+            />
+            <source
+              media="(min-width: 1280px )"
+              type="image/jpeg"
+              srcset="/project-group-4-html-css/assets/potatoes-tab-69455096.png 1x, /project-group-4-html-css/assets/potatoes-tab-2x-33d6a3e2.png 2x"
+            />
+            <img
+              src="/project-group-4-html-css/assets/potatoes-tab-69455096.png"
+              class="section4-picture"
+              alt="Sweet potatoes"
+              loading="lazy"
+              width="282"
+            />
           </picture>
         </div>
       </li>
@@ -382,27 +409,53 @@
           <h3 class="section4-subtitle">carrot</h3>
           <p class="section4-desc">40 UAH / kg</p>
           <picture>
-            <source media="(max-width: 767px )" type="image/webp"
-              srcset="/project-group-4-html-css/assets/carrot-mob-1x-236ea240.webp 1x, /project-group-4-html-css/assets/carrot-mob-2x-c5254212.webp 2x" />
-            <source media="(max-width: 767px )" type="image/jpeg"
-              srcset="/project-group-4-html-css/assets/carrot-mob-db68be81.png 1x, /project-group-4-html-css/assets/carrot-mob-2x-0bc5ef38.png 2x" />
-            <source media="(min-width: 768px )" type="image/webp"
-              srcset="/project-group-4-html-css/assets/carrot-tab-1x-b8ef85cc.webp 1x, /project-group-4-html-css/assets/carrot-tab-2x-9abd8457.webp 2x" />
-            <source media="(min-width: 768px )" type="image/jpeg"
-              srcset="/project-group-4-html-css/assets/carrot-tab-2b9ee9c6.png 1x, /project-group-4-html-css/assets/carrot-tab-2x-00b79f60.png 2x" />
-            <source media="(min-width: 1280px )" type="image/webp" srcset="/project-group-4-html-css/assets/carrot-tab-1x-b8ef85cc.webp 1x, /project-group-4-html-css/assets/carrot-tab-2x-9abd8457.webp 2x" />
-            <source media="(min-width: 1280px )" type="image/jpeg"
-              srcset="/project-group-4-html-css/assets/carrot-tab-2b9ee9c6.png 1x, /project-group-4-html-css/assets/carrot-tab-2x-00b79f60.png 2x" />
-            <img src="/project-group-4-html-css/assets/carrot-tab-2b9ee9c6.png" class="section4-picture" alt="Carrot" loading="lazy" width="282" />
+            <source
+              media="(max-width: 767px )"
+              type="image/webp"
+              srcset="/project-group-4-html-css/assets/carrot-mob-1x-236ea240.webp 1x, /project-group-4-html-css/assets/carrot-mob-2x-c5254212.webp 2x"
+            />
+            <source
+              media="(max-width: 767px )"
+              type="image/jpeg"
+              srcset="/project-group-4-html-css/assets/carrot-mob-db68be81.png 1x, /project-group-4-html-css/assets/carrot-mob-2x-0bc5ef38.png 2x"
+            />
+            <source
+              media="(min-width: 768px )"
+              type="image/webp"
+              srcset="/project-group-4-html-css/assets/carrot-tab-1x-b8ef85cc.webp 1x, /project-group-4-html-css/assets/carrot-tab-2x-9abd8457.webp 2x"
+            />
+            <source
+              media="(min-width: 768px )"
+              type="image/jpeg"
+              srcset="/project-group-4-html-css/assets/carrot-tab-2b9ee9c6.png 1x, /project-group-4-html-css/assets/carrot-tab-2x-00b79f60.png 2x"
+            />
+            <source
+              media="(min-width: 1280px )"
+              type="image/webp"
+              srcset="/project-group-4-html-css/assets/carrot-tab-1x-b8ef85cc.webp 1x, /project-group-4-html-css/assets/carrot-tab-2x-9abd8457.webp 2x"
+            />
+            <source
+              media="(min-width: 1280px )"
+              type="image/jpeg"
+              srcset="/project-group-4-html-css/assets/carrot-tab-2b9ee9c6.png 1x, /project-group-4-html-css/assets/carrot-tab-2x-00b79f60.png 2x"
+            />
+            <img
+              src="/project-group-4-html-css/assets/carrot-tab-2b9ee9c6.png"
+              class="section4-picture"
+              alt="Carrot"
+              loading="lazy"
+              width="282"
+            />
           </picture>
         </div>
       </li>
     </ul>
   </div>
 </section>
-      <section class="reviews-section">
+
+      <section id="reviews" class="reviews-section">
   <div class="container">
-    <h2 id="reviews" class="reviews-header">
+    <h2 class="reviews-header">
       reviews from our
       <span class="text-coloured">customers</span>
     </h2>
@@ -683,60 +736,69 @@
 </section>
 
     </main>
-    <footer class="footer"> 
-    <div class="footer-container">
-      <ul class="footer-main-ul">
-        <li>
-            <a class="footer-a" href=""><svg class="footer-logo-svg">
-                <use href="/project-group-4-html-css/assets/icons-f8af6c84.svg#icon-logo"></use>
-            </svg></a>
-            <p class="p-footer">
-                Whether you're looking for a healthy snack or a thoughtful gift, our fruit
-                baskets are the perfect choice.
-            </p>
-        </li>
-        <li>
-            <ul class="ul-footer">
-                <li>
-                    <ul class="ul-footer-links">
-                        <li class="li-footer">
-                            <a class="footer-a" href="#how-it-works">how it works</a>
-                        </li>
-                        <li class="li-footer">
-                            <a class="footer-a" href="#vegetables">vegetables</a>
-                        </li>
-                        <li class="li-footer">
-                            <a class="footer-a" href="#reviews">reviews</a>
-                        </li>
-                    </ul>
+    <footer class="footer">
+  <div class="footer-container">
+    <ul class="footer-main-ul">
+      <li>
+        <a class="footer-a" href=""
+          ><svg class="footer-logo-svg">
+            <use href="/project-group-4-html-css/assets/icons-f8af6c84.svg#icon-logo"></use></svg
+        ></a>
+        <p class="p-footer">
+          Whether you're looking for a healthy snack or a thoughtful gift, our
+          fruit baskets are the perfect choice.
+        </p>
+      </li>
+      <li>
+        <ul class="ul-footer">
+          <li>
+            <ul class="ul-footer-links">
+              <li class="li-footer">
+                <a class="footer-a" href="#how-it-works">how it works</a>
+              </li>
+              <li class="li-footer">
+                <a class="footer-a" href="#vegetables">vegetables</a>
+              </li>
+              <li class="li-footer">
+                <a class="footer-a" href="#reviews">reviews</a>
+              </li>
+            </ul>
+          </li>
+          <li class="li-footer-add">
+            <address>
+              <ul class="ul-footer-add">
+                <li class="li-footer-add">
+                  <a class="a-footer-add" href="tel:+380684439426"
+                    >+380 (68) 443-94-26</a
+                  >
                 </li>
                 <li class="li-footer-add">
-                    <address>
-                        <ul class="ul-footer-add">
-                            <li class="li-footer-add">
-                                <a class="a-footer-add" href="tel:+380684439426">+380 (68) 443-94-26</a>
-                            </li>
-                            <li class="li-footer-add">
-                                <a class="a-footer-add" href="https://maps.app.goo.gl/6SPoAwGACo6K2WVC6">1678 S. Pioneer Road Salt Lake City UT 84104</a>
-                            </li>
-                        </ul>
-                    </address>
+                  <a
+                    class="a-footer-add"
+                    href="https://maps.app.goo.gl/6SPoAwGACo6K2WVC6"
+                    >1678 S. Pioneer Road Salt<br />
+                    Lake City UT 84104</a
+                  >
                 </li>
-            </ul>
-        </li>
+              </ul>
+            </address>
+          </li>
+        </ul>
+      </li>
     </ul>
     <div class="footer-hero">
-        <ul class="footer-ul-privacy">
+      <ul class="footer-ul-privacy">
         <li class="footer-li-privacy">
-            <a class="a-privacy" href="">Privacy Policy</a>&nbsp;&nbsp;/&nbsp;&nbsp;
-            <a class="a-privacy" href="">Cookie settings</a>
+          <a class="a-privacy" href="">Privacy Policy</a
+          >&nbsp;&nbsp;/&nbsp;&nbsp;
+          <a class="a-privacy" href="">Cookie settings</a>
         </li>
         <li class="footer-li-privacy">
-            <a class="a-last" href="">©Green Harvest 2023</a>
+          <a class="a-last" href="">©Green Harvest 2023</a>
         </li>
-        </ul>
+      </ul>
     </div>
-</div>
+  </div>
 </footer>
 
     <div class="menu-backdrop" data-menu>
@@ -749,13 +811,15 @@
     <nav class="menu-nav">
       <ul class="menu-nav-list">
         <li class="menu-nav-item">
-          <a class="menu-nav-link" href="#how-it-works">How It Works</a>
+          <a class="menu-nav-link scroll-to" href="#how-it-works"
+            >How It Works</a
+          >
         </li>
         <li class="menu-nav-item">
-          <a class="menu-nav-link" href="#vegetables">Vegetables</a>
+          <a class="menu-nav-link scroll-to" href="#vegetables">Vegetables</a>
         </li>
         <li class="menu-nav-item">
-          <a class="menu-nav-link" href="#reviews">Reviews</a>
+          <a class="menu-nav-link scroll-to" href="#reviews">Reviews</a>
         </li>
       </ul>
     </nav>
