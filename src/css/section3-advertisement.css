@@ -13,69 +13,62 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.promo {
-  padding: 0 10px;
-}
 
 .promo-text-fill {
-  display: block;
-  padding: 3px 10px;
   color: #fbfbfb;
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 1.04;
-  letter-spacing: -0.015em;
-  text-transform: uppercase;
-  border-radius: 12px;
+}
+
+.background-container-promo {
+  position: relative;
+}
+
+.background-promo-text {
+  position: absolute;
   background-color: #576f35;
+  height: 100px;
+  width: 350px;
+  border-radius: 12px;
+  left: -10px;
+  flex-shrink: 5;
 }
 
 .promo-text {
-  display: block;
-  padding: 0 10px;
   color: #141414;
   font-size: 48px;
   font-weight: 600;
   line-height: 1.04;
   letter-spacing: -0.015em;
   text-transform: uppercase;
+  max-width: 330px;
+  position: relative;
 }
 
 @media screen and (min-width: 768px) {
-  .promo {
-    padding: 0 16px;
-  }
-
-  .promo-text-fill {
-    padding: 8px 16px;
-    font-size: 64px;
-    line-height: 1.09;
-  }
-
   .promo-text {
     padding: 0 16px;
     font-size: 64px;
     line-height: 1.09;
+    max-width: 704px;
+  }
+
+  .background-promo-text {
+    height: 86px;
+    width: 710px;
+    top: -10px;
+    left: -8px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .promo {
-    padding: 0 113px;
+  .background-promo-text {
+    height: 85px;
+    width: 808px;
+    top: -5px;
+    left: 2px;
   }
-
-  .promo-text-fill {
-    display: inline-block;
-    padding: 0 13px;
-    font-size: 76px;
-    line-height: 1.05;
-  }
-
   .promo-text {
-    display: inline-block;
-    display: inline;
-    padding: 0 13px;
     font-size: 76px;
     line-height: 1.05;
+    max-width: 1070px;
   }
 }
