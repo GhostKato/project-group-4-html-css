@@ -25,6 +25,7 @@
 
 .how-picture {
   border-radius: 30px;
+  object-fit: cover;
 }
 
 .steps-text {

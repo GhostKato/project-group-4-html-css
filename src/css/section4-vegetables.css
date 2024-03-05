@@ -1,12 +1,12 @@
 .section4 {
-  background: #7A3145;
+  background: #7a3145;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .section4-title {
-  color: #FBFBFB;
+  color: #fbfbfb;
   font-size: 48px;
   font-weight: 600;
   line-height: 1.04;
@@ -17,7 +17,7 @@
 }
 
 .section4-title-part {
-  color: rgba(251, 251, 251, 0.30);
+  color: rgba(251, 251, 251, 0.3);
   font-size: 48px;
   font-weight: 600;
   line-height: 1.04;
@@ -27,7 +27,7 @@
 }
 
 .section4-text {
-  color: #FBFBFB;
+  color: #fbfbfb;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.28;
@@ -43,7 +43,7 @@
 
 .section4-item {
   border-radius: 40px;
-  background: #FBFBFB;
+  background: #fbfbfb;
   width: 100%;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .section4-subtitle {
-  color: #7A3145;
+  color: #7a3145;
   font-size: 28px;
   font-weight: 600;
   line-height: 1;
@@ -72,14 +72,13 @@
   padding-bottom: 14px;
 }
 
-.section4-picture {}
-
-
+.section4-picture {
+  object-fit: cover;
+}
 
 /* Tablet */
 
 @media screen and (min-width: 768px) {
-
   .section4-title {
     max-width: 508px;
     font-size: 64px;
@@ -125,11 +124,9 @@
   }
 }
 
-
 /* Desktop */
 
 @media screen and (min-width: 1280px) {
-
   .section4-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -144,5 +141,4 @@
   .section4-cover {
     padding: 32px 32px;
   }
-
 }
