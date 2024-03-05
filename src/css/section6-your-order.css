@@ -69,6 +69,7 @@
 .form-input {
   border: 1px solid rgba(20, 20, 20, 0.2);
   outline: transparent;
+  background-color: transparent;
   border-radius: 30px;
   padding: 14px 16px;
   width: 100%;
@@ -117,6 +118,7 @@ input::placeholder {
 .form-textarea {
   border: 1px solid rgba(20, 20, 20, 0.2);
   outline: transparent;
+  background-color: transparent;
   border-radius: 15px;
   padding: 14px 16px; /**needs correction*/
   width: 100%;
