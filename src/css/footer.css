@@ -46,6 +46,10 @@
   text-wrap: nowrap;
 }
 
+.footer-a:hover {
+  color: #576F35;
+}
+
 .ul-footer-add {
   display: inline-grid;
   gap: 14px;
@@ -58,6 +62,10 @@
   font-weight: 600;
   line-height: 18px;
   letter-spacing: -0.21px;
+}
+
+.a-footer-add:hover {
+  color: #576F35;
 }
 
 .footer-ul-privacy {
