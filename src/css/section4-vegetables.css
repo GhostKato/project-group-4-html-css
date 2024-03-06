@@ -142,3 +142,18 @@
     padding: 32px 32px;
   }
 }
+
+.section4-item:hover {
+  animation-duration: 2s;
+  animation-name: vegatables;
+}
+
+@keyframes vegatables {
+  from {
+    transform: rotate(3.142rad);
+  }
+
+  to {
+    transform: rotate(0);
+  }
+}

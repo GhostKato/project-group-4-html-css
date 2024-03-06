@@ -124,3 +124,18 @@
     max-width: 472px;
   }
 }
+
+h1 {
+  animation-duration: 2s;
+  animation-name: hero;
+}
+
+@keyframes hero {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}

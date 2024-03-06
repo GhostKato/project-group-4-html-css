@@ -167,3 +167,20 @@
     background: #622133;
   }
 }
+
+header {
+  animation-duration: 2s;
+  animation-name: header;
+}
+
+@keyframes header {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
