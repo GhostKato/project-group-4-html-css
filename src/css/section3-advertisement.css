@@ -1,3 +1,69 @@
+<<<<<<< HEAD
+.advertisement {
+  padding: 80px 0;
+}
+
+/* .advertisement-container {
+width: 375px;
+padding: 0 20px;
+margin: 0 auto;
+} */
+.advertisement-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+.advertisement-text {
+font-weight: 600;
+font-size: 48px;
+line-height: 1.04;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: #141414;
+}
+
+.advertisement-span {
+display: block;
+background-color: #576f35;
+border-radius: 12px;
+margin-left: -10px;
+margin-right: -10px;
+padding: 3px 10px;
+color: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+.advertisement {
+padding: 100px 0;
+}
+/* .advertisement-container {
+width: 768px;
+padding: 0 32px;
+} */
+.advertisement-text {
+font-size: 64px;
+line-height: 1.09;
+}
+.advertisement-span {
+margin-left: -16px;
+margin-right: -16px;
+padding: 8px 16px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+.advertisement-container {
+/* width: 1280px; */
+padding: 0 113px;
+=======
 .promo {
   background: #fbfbfb;
 }
@@ -71,4 +137,16 @@
     line-height: 1.05;
     max-width: 1070px;
   }
+>>>>>>> main
+}
+.advertisement-text {
+font-size: 76px;
+line-height: 1.05;
+}
+.advertisement-span {
+display: inline-block;
+margin-left: -13px;
+margin-right: -13px;
+padding: 0 13px;
+}
 }
