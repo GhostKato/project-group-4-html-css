@@ -12,7 +12,7 @@
     "glob": "^8.1.0",
     "vite": "^4.5.2"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Maksym Osadchenko <osadchenko.maksym@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "modern-normalize": "^2.0.0",
