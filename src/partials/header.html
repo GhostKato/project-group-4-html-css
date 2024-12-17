@@ -24,23 +24,11 @@
         </li>
       </ul>
     </nav>
-    <button
-      class="header-buy-btn scroll-to"
-      onclick="scrollToSection()"
-      type="button"
-    >
-      SHOP NOW
-    </button>
+    <a class="header-buy-btn scroll-to" href="#your-order"> SHOP NOW </a>
     <button class="menu-btn" type="button" data-menu-open>
       <svg class="menu-icon">
         <use class="menu-link" href="./img/icons.svg#icon-menu"></use>
       </svg>
     </button>
   </div>
-  <script>
-    function scrollToSection() {
-      const section = document.querySelector('#your-order');
-      section.scrollIntoView({ behavior: 'smooth' });
-    }
-  </script>
 </header>
