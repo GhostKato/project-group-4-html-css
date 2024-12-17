@@ -1,4 +1,4 @@
-# Team project: **Green Harvest**
+# Team project: green harvest
 
 ### Description:
 
