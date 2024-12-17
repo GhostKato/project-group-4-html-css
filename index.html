@@ -50,13 +50,25 @@
         </li>
       </ul>
     </nav>
-    <button class="header-buy-btn" type="button">SHOP NOW</button>
+    <button
+      class="header-buy-btn scroll-to"
+      onclick="scrollToSection()"
+      type="button"
+    >
+      SHOP NOW
+    </button>
     <button class="menu-btn" type="button" data-menu-open>
       <svg class="menu-icon">
         <use class="menu-link" href="/project-group-4-html-css/assets/icons-f8af6c84.svg#icon-menu"></use>
       </svg>
     </button>
   </div>
+  <script>
+    function scrollToSection() {
+      const section = document.querySelector('#your-order');
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
 </header>
 
     <main>
@@ -606,7 +618,7 @@
   </div>
 </section>
 
-      <section class="background-order">
+      <section class="background-order" id="your-order">
   <div class="container section">
     <div class="order-top-container">
       <h2 class="your-order-title">
