@@ -23,13 +23,13 @@ interaction.
    - Detailed information about each product (photo, price, description,
      availability).
 
-   ![header](./src/img/readme/header.png)
+![header](./src/img/readme/header.png)
 
 2. **Section with products:**
 
    - List of vegetables with images, prices and descriptions.
 
-   ![vegatables](./src/img/readme/vegatables.png)
+![vegatables](./src/img/readme/vegatables.png)
 
 3. **Section for communication with the seller:**
 
@@ -37,14 +37,14 @@ interaction.
      email and inquiry.
    - The feedback form helps to quickly get advice on Products.
 
-   ![your-order](./src/img/readme/your-order.png)
+![your-order](./src/img/readme/your-order.png)
 
 4. **Advantages of organic products:**
 
    - The site has a special section telling about the benefits of organic
      vegetables for health and environment.
 
-   ![discount](./src/img/readme/discount.png)
+![discount](./src/img/readme/discount.png)
 
 5. **Animations and Effects:**
 
@@ -52,7 +52,7 @@ interaction.
      user experience.
    - Interaction with site elements becomes more intuitive and pleasant.
 
-   ![how-it-works](./src/img/readme/how-it-works.png)
+![how-it-works](./src/img/readme/how-it-works.png)
 
 ---
 
@@ -64,21 +64,21 @@ interaction.
      simplicity use.
    - Choice of fonts and colors that emphasize eco-oriented themes the Site.
 
-   ![reviews](./src/img/readme/reviews.png)
+![reviews](./src/img/readme/reviews.png)
 
 2. **Testing:**
 
    - Testing the site on different devices and browsers to ensure adaptability
      and stability across all platforms.
 
-   ![footer](./src/img/readme/footer.png)
+![footer](./src/img/readme/footer.png)
 
 3. **Launch and support:**
 
    - Publishing a site on the Internet and then updating based on the reverse
      user communications.
 
-   ![menu](./src/img/readme/menu.png)
+![menu](./src/img/readme/menu.png)
 
 ---
 
